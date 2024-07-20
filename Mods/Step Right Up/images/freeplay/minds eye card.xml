@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minds eye card.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minds eye card0000" x="0" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0001" x="0" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0002" x="0" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0003" x="0" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0004" x="290" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0005" x="290" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0006" x="290" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0007" x="290" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0008" x="580" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0009" x="580" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0010" x="580" y="0" width="240" height="254"/>
+	<SubTexture name="minds eye card0011" x="580" y="0" width="240" height="254"/>
+</TextureAtlas>

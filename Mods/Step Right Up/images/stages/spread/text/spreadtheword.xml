@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="spreadtheword.png" width="1573" height="1302">
+	<SubTexture name="spreadtheword0000" x="739" y="1241" width="464" height="48" frameX="-6" frameY="-281" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0001" x="757" y="402" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0002" x="0" y="0" width="752" height="412" frameX="-154" frameY="-21" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0003" x="757" y="0" width="438" height="397" frameX="-198" frameY="-37" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0004" x="0" y="417" width="688" height="428" frameX="-179" frameY="-22" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0005" x="693" y="417" width="476" height="428" frameX="-178" frameY="-22" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0006" x="0" y="850" width="448" height="390" frameX="-192" frameY="-41" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0007" x="0" y="850" width="448" height="390" frameX="-192" frameY="-41" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0008" x="1174" y="402" width="380" height="439" rotated="true" frameX="-198" frameY="-52" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0009" x="1174" y="846" width="399" height="345" frameX="-218" frameY="-64" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0010" x="0" y="1245" width="734" height="57" frameX="-178" frameY="-256" frameWidth="1104" frameHeight="474"/>
+	<SubTexture name="spreadtheword0011" x="453" y="1196" width="780" height="40" frameX="-316" frameY="-281" frameWidth="1104" frameHeight="474"/>
+</TextureAtlas>

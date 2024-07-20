@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="widespreadending1.png">
+<SubTexture name="transition0000" x="0" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="transition0001" x="1280" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="transition0002" x="0" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0003" x="640" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0004" x="0" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0005" x="640" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0006" x="2560" y="0" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0007" x="2560" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0008" x="640" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0009" x="0" y="2160" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0010" x="640" y="2160" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0011" x="2560" y="1080" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0012" x="0" y="2880" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0013" x="640" y="2880" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="transition0014" x="2560" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+</TextureAtlas>

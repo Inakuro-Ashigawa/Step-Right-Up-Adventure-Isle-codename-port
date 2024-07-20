@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dogjumpout.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="dogjumpout0000" x="50" y="50" width="1689" height="837"/>
+<SubTexture name="dogjumpout0001" x="50" y="50" width="1689" height="837"/>
+<SubTexture name="dogjumpout0002" x="1789" y="50" width="1689" height="837"/>
+<SubTexture name="dogjumpout0003" x="50" y="937" width="1689" height="837"/>
+<SubTexture name="dogjumpout0004" x="50" y="937" width="1689" height="837"/>
+<SubTexture name="dogjumpout0005" x="1789" y="937" width="1689" height="837"/>
+<SubTexture name="dogjumpout0006" x="1789" y="937" width="1689" height="837"/>
+<SubTexture name="dogjumpout0007" x="50" y="1825" width="1689" height="837"/>
+<SubTexture name="dogjumpout0008" x="1789" y="1825" width="1689" height="837"/>
+<SubTexture name="dogjumpout0009" x="50" y="2712" width="1689" height="837"/>
+<SubTexture name="dogjumpout0010" x="1789" y="2712" width="1689" height="837"/>
+<SubTexture name="dogjumpout0020" x="1789" y="1825" width="1689" height="837"/>
+<SubTexture name="dogjumpout0021" x="1789" y="1825" width="1689" height="837"/>
+<SubTexture name="dogjumpout0022" x="1789" y="1825" width="1689" height="837"/>
+</TextureAtlas>

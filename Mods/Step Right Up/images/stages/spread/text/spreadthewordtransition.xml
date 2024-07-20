@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spreadthewordtransition.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spreadthewordtransition0000" x="100" y="100" width="2943" height="2971"/>
+	<SubTexture name="spreadthewordtransition0001" x="3143" y="100" width="2943" height="2971"/>
+	<SubTexture name="spreadthewordtransition0002" x="100" y="3171" width="2943" height="2971"/>
+	<SubTexture name="spreadthewordtransition0003" x="3143" y="3171" width="2943" height="2971"/>
+</TextureAtlas>

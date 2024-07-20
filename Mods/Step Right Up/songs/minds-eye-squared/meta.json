@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -16711423,
+	"displayName": "Minds Eye Squared",
+	"icon": "creepy-dog",
+	"name": "minds-eye-squared",
+	"color": "#010101"
+}

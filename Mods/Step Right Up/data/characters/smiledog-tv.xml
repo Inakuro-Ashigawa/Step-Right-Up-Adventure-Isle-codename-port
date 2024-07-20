@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="SMILEDOG/dmile_sog" scale="0.8" camx="-300" camy="-20" icon="creepy-dog" holdTime="6.1">
+	<anim name="singLEFT" anim="left" x="187" y="16" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-31" y="20" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="22" y="65" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="68" y="50" fps="24" loop="false"/>
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+</character>

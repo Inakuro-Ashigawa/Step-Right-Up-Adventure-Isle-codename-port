@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="pcglitch.png" width="2435" height="1706">
+	<SubTexture name="pcglitch0000" x="0" y="1284" width="759" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0001" x="764" y="1284" width="759" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0002" x="1676" y="0" width="759" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0003" x="1676" y="427" width="759" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0004" x="1676" y="854" width="759" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0005" x="0" y="0" width="833" height="423" frameX="-0" frameY="-0" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0006" x="0" y="428" width="833" height="423" frameX="-0" frameY="-0" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0007" x="838" y="0" width="833" height="423" frameX="-0" frameY="-0" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0008" x="838" y="428" width="833" height="423" frameX="-0" frameY="-0" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0009" x="0" y="856" width="833" height="423" frameX="-0" frameY="-0" frameWidth="833" frameHeight="423"/>
+	<SubTexture name="pcglitch0010" x="838" y="856" width="771" height="422" frameX="-29" frameY="-1" frameWidth="833" frameHeight="423"/>
+</TextureAtlas>

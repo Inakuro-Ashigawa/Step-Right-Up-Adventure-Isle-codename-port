@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tattletailP.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TATTLETAIL0000" x="0" y="0" width="156" height="177" pivotX="42.35" pivotY="53.55" frameX="-2" frameY="-1" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0001" x="0" y="0" width="156" height="177" frameX="-2" frameY="-1" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0002" x="156" y="0" width="157" height="176" frameX="-2" frameY="-2" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0003" x="156" y="0" width="157" height="176" frameX="-2" frameY="-2" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0004" x="313" y="0" width="153" height="177" frameX="-5" frameY="-1" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0005" x="313" y="0" width="153" height="177" frameX="-5" frameY="-1" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0006" x="466" y="0" width="152" height="172" frameX="-6" frameY="-6" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0007" x="466" y="0" width="152" height="172" frameX="-6" frameY="-6" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0008" x="618" y="0" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0009" x="618" y="0" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0010" x="770" y="0" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0011" x="770" y="0" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0012" x="0" y="177" width="151" height="174" frameX="-7" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0013" x="0" y="177" width="151" height="174" frameX="-7" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0014" x="151" y="177" width="149" height="172" frameX="-10" frameY="-5" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0015" x="151" y="177" width="149" height="172" frameX="-10" frameY="-5" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0016" x="300" y="177" width="149" height="175" frameX="-10" frameY="-3" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0017" x="300" y="177" width="149" height="175" frameX="-10" frameY="-3" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0018" x="449" y="177" width="150" height="175" frameX="-8" frameY="-3" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0019" x="449" y="177" width="150" height="175" frameX="-8" frameY="-3" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0020" x="599" y="177" width="151" height="173" frameX="-7" frameY="-5" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0021" x="599" y="177" width="151" height="173" frameX="-7" frameY="-5" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0022" x="750" y="177" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0023" x="750" y="177" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0024" x="0" y="352" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0025" x="0" y="352" width="152" height="174" frameX="-6" frameY="-4" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0026" x="152" y="352" width="153" height="175" frameX="-5" frameY="-3" frameWidth="159" frameHeight="178"/>
+	<SubTexture name="TATTLETAIL0027" x="152" y="352" width="153" height="175" frameX="-5" frameY="-3" frameWidth="159" frameHeight="178"/>
+</TextureAtlas>

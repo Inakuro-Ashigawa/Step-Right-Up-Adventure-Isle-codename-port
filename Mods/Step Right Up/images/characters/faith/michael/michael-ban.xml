@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="michael-ban.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="michael ban down0000" x="10" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0001" x="167" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0002" x="324" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0003" x="481" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0004" x="638" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0005" x="795" y="10" width="147" height="69"/>
+	<SubTexture name="michael ban down0006" x="10" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban down0007" x="167" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban idle0000" x="324" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban idle0001" x="481" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban idle0002" x="638" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban idle0003" x="795" y="89" width="147" height="69"/>
+	<SubTexture name="michael ban idle0004" x="10" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban idle0005" x="167" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban left0000" x="324" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban left0001" x="481" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban left0002" x="638" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban left0003" x="795" y="168" width="147" height="69"/>
+	<SubTexture name="michael ban left0004" x="10" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban left0005" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban left0006" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban left0007" x="481" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban right0000" x="638" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban right0001" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="michael ban right0002" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0003" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0004" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0005" x="481" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0006" x="638" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0007" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="michael ban right0008" x="10" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0000" x="167" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0001" x="324" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0002" x="481" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0003" x="638" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0004" x="795" y="405" width="147" height="69"/>
+	<SubTexture name="michael ban up0005" x="10" y="484" width="147" height="69"/>
+	<SubTexture name="michael ban up0006" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="michael ban up0007" x="324" y="484" width="147" height="69"/>
+</TextureAtlas>

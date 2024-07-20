@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yellow tattletail.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yellow tattletail0000" x="10" y="10" width="212" height="276" frameX="-7" frameY="-3" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0001" x="10" y="10" width="212" height="276" frameX="-7" frameY="-3" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0002" x="222" y="10" width="212" height="278" frameX="-3" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0003" x="222" y="10" width="212" height="278" frameX="-3" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0004" x="434" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0005" x="434" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0006" x="647" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0007" x="647" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0008" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0009" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0010" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0011" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0012" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0013" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail0014" x="860" y="10" width="213" height="278" frameX="-1" frameY="0" frameWidth="219" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0000" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0001" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0002" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0003" x="1281" y="10" width="209" height="276" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0004" x="1281" y="10" width="209" height="276" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0005" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0006" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0007" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0008" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0009" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0010" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0011" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0012" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0013" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0014" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0015" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0016" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0017" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0018" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0019" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0020" x="1490" y="10" width="204" height="278" frameX="-8" frameY="-1" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0021" x="1694" y="10" width="208" height="277" frameX="-7" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0022" x="1694" y="10" width="208" height="277" frameX="-7" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0023" x="10" y="288" width="223" height="276" frameX="0" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0024" x="10" y="288" width="223" height="276" frameX="0" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0025" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0026" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0027" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0028" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0029" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0030" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0031" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0032" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0033" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0034" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0035" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0036" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0037" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0038" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0039" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0040" x="233" y="288" width="224" height="275" frameX="0" frameY="-3" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0041" x="457" y="288" width="220" height="276" frameX="-1" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0042" x="457" y="288" width="220" height="276" frameX="-1" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0043" x="677" y="288" width="216" height="278" frameX="-3" frameY="0" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0044" x="677" y="288" width="216" height="278" frameX="-3" frameY="0" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0045" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0046" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+	<SubTexture name="yellow tattletail no more mama0047" x="1073" y="10" width="208" height="277" frameX="-6" frameY="-2" frameWidth="224" frameHeight="279"/>
+</TextureAtlas>

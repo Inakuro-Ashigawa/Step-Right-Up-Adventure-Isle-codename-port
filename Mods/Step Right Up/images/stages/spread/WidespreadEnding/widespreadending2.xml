@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="widespreadending2.png">
+<SubTexture name="spazz0000" x="0" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="spazz0001" x="1280" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="spazz0002" x="0" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="spazz0003" x="640" y="360" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="spazz0004" x="0" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+<SubTexture name="spazz0005" x="640" y="1440" width="640" height="360" frameX="0" frameY="0" frameWidth="640" frameHeight="360" />
+</TextureAtlas>

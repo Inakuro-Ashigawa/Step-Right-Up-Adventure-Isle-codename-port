@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fuckers.png">
+	<SubTexture name="loop0000" x="0" y="178" width="1883" height="169" frameX="-1" frameY="-5" frameWidth="1920" frameHeight="178" />
+	<SubTexture name="loop0001" x="0" y="0" width="1919" height="178" frameX="-1" frameY="0" frameWidth="1920" frameHeight="178" />
+	<SubTexture name="loop0002" x="0" y="347" width="1789" height="163" frameX="-66" frameY="-8" frameWidth="1920" frameHeight="178" />
+	<SubTexture name="loop0003" x="0" y="645" width="1798" height="134" frameX="-61" frameY="-22" frameWidth="1920" frameHeight="178" />
+	<SubTexture name="loop0004" x="0" y="510" width="1859" height="135" frameX="-61" frameY="-22" frameWidth="1920" frameHeight="178" />
+</TextureAtlas>

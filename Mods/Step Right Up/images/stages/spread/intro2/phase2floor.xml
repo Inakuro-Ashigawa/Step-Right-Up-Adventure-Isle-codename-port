@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="phase2floor.png">
+<SubTexture name="lookaway0000" x="0" y="0" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0001" x="0" y="0" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0002" x="2287" y="0" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0003" x="0" y="1252" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0004" x="2287" y="1252" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0005" x="0" y="2504" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0006" x="2287" y="2504" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0007" x="2287" y="2504" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0008" x="4574" y="0" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0009" x="4574" y="0" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0010" x="4574" y="1252" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+<SubTexture name="lookaway0011" x="4574" y="1252" width="2287" height="1252" frameX="0" frameY="0" frameWidth="2287" frameHeight="1252" />
+</TextureAtlas>

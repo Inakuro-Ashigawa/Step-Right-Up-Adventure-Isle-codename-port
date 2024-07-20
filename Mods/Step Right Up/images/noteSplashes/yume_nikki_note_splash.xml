@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yume_nikki_note_splash.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yume nik splash note spla instance 10000" x="15" y="15" width="169" height="169" frameX="-10" frameY="-9" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10001" x="199" y="15" width="187" height="186" frameX="0" frameY="-1" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10002" x="15" y="216" width="184" height="184" frameX="-1" frameY="0" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10003" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10004" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10005" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10006" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10007" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10008" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+	<SubTexture name="yume nik splash note spla instance 10009" x="214" y="216" width="175" height="170" frameX="-9" frameY="-6" frameWidth="187" frameHeight="187"/>
+</TextureAtlas>

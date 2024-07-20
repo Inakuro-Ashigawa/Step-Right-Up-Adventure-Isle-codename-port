@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Goofy_Dog.png" width="1657" height="2235">
+	<SubTexture name="laugh dog0000" x="0" y="1146" width="1657" height="1089" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0001" x="0" y="1146" width="1657" height="1089" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0002" x="0" y="1146" width="1657" height="1089" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0003" x="0" y="1146" width="1657" height="1089" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0004" x="0" y="1146" width="1657" height="1089" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0005" x="0" y="0" width="1657" height="1141" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0006" x="0" y="0" width="1657" height="1141" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0007" x="0" y="0" width="1657" height="1141" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0008" x="0" y="0" width="1657" height="1141" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+	<SubTexture name="laugh dog0009" x="0" y="0" width="1657" height="1141" frameX="-0" frameY="-0" frameWidth="1713" frameHeight="1152"/>
+</TextureAtlas>

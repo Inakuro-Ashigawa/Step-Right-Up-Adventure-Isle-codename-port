@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SD_Note_Splash.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SD_Splash instance red 10000" x="15" y="15" width="189" height="219" frameX="-20" frameY="-1" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance red 10001" x="219" y="15" width="204" height="222" frameX="-14" frameY="0" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance red 10002" x="438" y="15" width="233" height="219" frameX="0" frameY="-3" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance red 10003" x="686" y="15" width="171" height="211" frameX="-29" frameY="-5" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance red 10004" x="15" y="252" width="166" height="202" frameX="-31" frameY="-11" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance red 10005" x="196" y="252" width="0" height="0" frameX="-1025" frameY="261" frameWidth="233" frameHeight="222"/>
+
+	<SubTexture name="SD_Splash instance blue 10000" x="15" y="15" width="189" height="219" frameX="-20" frameY="-1" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance blue 10001" x="219" y="15" width="204" height="222" frameX="-14" frameY="0" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance blue 10002" x="438" y="15" width="233" height="219" frameX="0" frameY="-3" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance blue 10003" x="686" y="15" width="171" height="211" frameX="-29" frameY="-5" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance blue 10004" x="15" y="252" width="166" height="202" frameX="-31" frameY="-11" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance blue 10005" x="196" y="252" width="0" height="0" frameX="-1025" frameY="261" frameWidth="233" frameHeight="222"/>
+
+	<SubTexture name="SD_Splash instance purple 10000" x="15" y="15" width="189" height="219" frameX="-20" frameY="-1" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance purple 10001" x="219" y="15" width="204" height="222" frameX="-14" frameY="0" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance purple 10002" x="438" y="15" width="233" height="219" frameX="0" frameY="-3" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance purple 10003" x="686" y="15" width="171" height="211" frameX="-29" frameY="-5" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance purple 10004" x="15" y="252" width="166" height="202" frameX="-31" frameY="-11" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance purple 10005" x="196" y="252" width="0" height="0" frameX="-1025" frameY="261" frameWidth="233" frameHeight="222"/>
+
+	<SubTexture name="SD_Splash instance green 10000" x="15" y="15" width="189" height="219" frameX="-20" frameY="-1" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance green 10001" x="219" y="15" width="204" height="222" frameX="-14" frameY="0" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance green 10002" x="438" y="15" width="233" height="219" frameX="0" frameY="-3" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance green 10003" x="686" y="15" width="171" height="211" frameX="-29" frameY="-5" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance green 10004" x="15" y="252" width="166" height="202" frameX="-31" frameY="-11" frameWidth="233" frameHeight="222"/>
+	<SubTexture name="SD_Splash instance green 10005" x="196" y="252" width="0" height="0" frameX="-1025" frameY="261" frameWidth="233" frameHeight="222"/>
+</TextureAtlas>

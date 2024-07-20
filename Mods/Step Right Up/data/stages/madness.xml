@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/smile/" zoom="0.8">
+	<gf/>
+	<sprite name="FIRST_BG" sprite="FIRST_BG"/>
+	<sprite x="867.5" name="FIRST_PC" sprite="FIRST_PC" y="256.5"/>
+	<dad x="842.5" y="146.5"/>
+	<bf x="9.5" y="125"/>
+	<combo x="580.5" y="186"/>
+</stage>

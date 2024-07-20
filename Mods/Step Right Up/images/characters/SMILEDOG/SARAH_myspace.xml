@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="SARAH_myspace.png" width="2497" height="2483">
+	<SubTexture name="SARAH DOWN0000" x="1916" y="1160" width="432" height="566" frameX="-8" frameY="-29" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0001" x="1916" y="1160" width="432" height="566" frameX="-8" frameY="-29" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0002" x="1916" y="1160" width="432" height="566" frameX="-8" frameY="-29" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0003" x="2067" y="582" width="430" height="573" frameX="-9" frameY="-21" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0004" x="2067" y="582" width="430" height="573" frameX="-9" frameY="-21" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0005" x="2067" y="582" width="430" height="573" frameX="-9" frameY="-21" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0006" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0007" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0008" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0009" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0010" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0011" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0012" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH DOWN0013" x="2067" y="0" width="430" height="577" frameX="-9" frameY="-17" frameWidth="451" frameHeight="613"/>
+	<SubTexture name="SARAH IDLE0000" x="0" y="1709" width="430" height="774" frameX="-13" frameY="-48" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0001" x="0" y="1709" width="430" height="774" frameX="-13" frameY="-48" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0002" x="0" y="1709" width="430" height="774" frameX="-13" frameY="-48" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0003" x="867" y="1698" width="431" height="772" frameX="-13" frameY="-50" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0004" x="867" y="1698" width="431" height="772" frameX="-13" frameY="-50" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0005" x="867" y="1698" width="431" height="772" frameX="-13" frameY="-50" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0006" x="435" y="897" width="431" height="796" frameX="-15" frameY="-26" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0007" x="435" y="897" width="431" height="796" frameX="-15" frameY="-26" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0008" x="435" y="897" width="431" height="796" frameX="-15" frameY="-26" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0009" x="435" y="897" width="431" height="796" frameX="-15" frameY="-26" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0010" x="0" y="907" width="430" height="797" frameX="-16" frameY="-25" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0011" x="0" y="907" width="430" height="797" frameX="-16" frameY="-25" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0012" x="0" y="907" width="430" height="797" frameX="-16" frameY="-25" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH IDLE0013" x="0" y="907" width="430" height="797" frameX="-16" frameY="-25" frameWidth="471" frameHeight="831"/>
+	<SubTexture name="SARAH LEFT0000" x="871" y="893" width="427" height="775" frameX="-79" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0001" x="871" y="893" width="427" height="775" frameX="-79" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0002" x="871" y="893" width="427" height="775" frameX="-79" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0003" x="1655" y="0" width="407" height="775" frameX="-91" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0004" x="1655" y="0" width="407" height="775" frameX="-91" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0005" x="1655" y="0" width="407" height="775" frameX="-91" frameY="-60" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0006" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0007" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0008" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0009" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0010" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0011" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0012" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH LEFT0013" x="435" y="1698" width="427" height="774" frameX="-93" frameY="-61" frameWidth="556" frameHeight="848"/>
+	<SubTexture name="SARAH RIGHT0000" x="1303" y="1561" width="608" height="766" frameX="-22" frameY="-25" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0001" x="1303" y="1561" width="608" height="766" frameX="-22" frameY="-25" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0002" x="1303" y="1561" width="608" height="766" frameX="-22" frameY="-25" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0003" x="1303" y="781" width="593" height="775" frameX="-18" frameY="-16" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0004" x="1303" y="781" width="593" height="775" frameX="-18" frameY="-16" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0005" x="1303" y="781" width="593" height="775" frameX="-18" frameY="-16" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0006" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0007" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0008" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0009" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0010" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0011" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0012" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH RIGHT0013" x="1068" y="0" width="582" height="776" frameX="-17" frameY="-15" frameWidth="633" frameHeight="802"/>
+	<SubTexture name="SARAH UP0000" x="0" y="0" width="351" height="902" frameX="-8" frameY="-0" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0001" x="0" y="0" width="351" height="902" frameX="-8" frameY="-0" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0002" x="0" y="0" width="351" height="902" frameX="-8" frameY="-0" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0003" x="356" y="0" width="351" height="892" frameX="-4" frameY="-10" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0004" x="356" y="0" width="351" height="892" frameX="-4" frameY="-10" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0005" x="356" y="0" width="351" height="892" frameX="-4" frameY="-10" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0006" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0007" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0008" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0009" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0010" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0011" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0012" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+	<SubTexture name="SARAH UP0013" x="712" y="0" width="351" height="888" frameX="-8" frameY="-15" frameWidth="374" frameHeight="920"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="toolate.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="toolate0000" x="50" y="50" width="858" height="515"/>
+<SubTexture name="toolate0001" x="958" y="50" width="858" height="515"/>
+<SubTexture name="toolate0002" x="50" y="615" width="858" height="515"/>
+</TextureAtlas>

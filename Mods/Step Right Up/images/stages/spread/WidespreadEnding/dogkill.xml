@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="dogkill.png">
+<SubTexture name="jump0000" x="1798" y="0" width="997" height="707" frameX="-177" frameY="-236" frameWidth="1794" frameHeight="1249" />
+<SubTexture name="jump0001" x="1798" y="0" width="997" height="707" frameX="-177" frameY="-236" frameWidth="1794" frameHeight="1249" />
+<SubTexture name="jump0002" x="0" y="0" width="1798" height="1253" frameX="0" frameY="0" frameWidth="1794" frameHeight="1249" />
+<SubTexture name="jump0003" x="0" y="0" width="1798" height="1253" frameX="0" frameY="0" frameWidth="1794" frameHeight="1249" />
+</TextureAtlas>

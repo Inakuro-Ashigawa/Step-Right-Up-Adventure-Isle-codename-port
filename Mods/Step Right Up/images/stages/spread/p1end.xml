@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="p1end.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="p1end0000" x="25" y="25" width="735" height="462"/>
+<SubTexture name="p1end0001" x="785" y="25" width="735" height="462"/>
+<SubTexture name="p1end0002" x="25" y="512" width="735" height="462"/>
+<SubTexture name="p1end0003" x="785" y="512" width="735" height="462"/>
+<SubTexture name="p1end0004" x="785" y="512" width="735" height="462"/>
+<SubTexture name="p1end0005" x="25" y="1000" width="735" height="462"/>
+<SubTexture name="p1end0006" x="785" y="1000" width="735" height="462"/>
+<SubTexture name="p1end0007" x="25" y="1488" width="735" height="462"/>
+<SubTexture name="p1end0008" x="785" y="1488" width="735" height="462"/>
+</TextureAtlas>

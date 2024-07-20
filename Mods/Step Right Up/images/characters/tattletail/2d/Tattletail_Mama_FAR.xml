@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Tattletail_Mama_FAR.png" width="878" height="779">
+	<SubTexture name="MAMA Far Down0000" x="678" y="280" width="194" height="233" frameX="-0" frameY="-7" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0001" x="678" y="280" width="194" height="233" frameX="-0" frameY="-7" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0002" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0003" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0004" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0005" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0006" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0007" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0008" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0009" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0010" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0011" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0012" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Down0013" x="465" y="280" width="208" height="240" frameX="-3" frameY="-0" frameWidth="211" frameHeight="241"/>
+	<SubTexture name="MAMA Far Idle0000" x="664" y="525" width="203" height="239" frameX="-0" frameY="-10" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0001" x="664" y="525" width="203" height="239" frameX="-0" frameY="-10" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0002" x="664" y="525" width="203" height="239" frameX="-0" frameY="-10" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0003" x="201" y="533" width="199" height="244" frameX="-2" frameY="-5" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0004" x="201" y="533" width="199" height="244" frameX="-2" frameY="-5" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0005" x="0" y="527" width="196" height="248" frameX="-4" frameY="-1" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0006" x="0" y="527" width="196" height="248" frameX="-4" frameY="-1" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0007" x="0" y="527" width="196" height="248" frameX="-4" frameY="-1" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0008" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0009" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0010" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0011" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0012" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Idle0013" x="685" y="0" width="193" height="249" frameX="-4" frameY="-0" frameWidth="203" frameHeight="249"/>
+	<SubTexture name="MAMA Far Left0000" x="465" y="525" width="194" height="254" frameX="-0" frameY="-3" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0001" x="465" y="525" width="194" height="254" frameX="-0" frameY="-3" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0002" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0003" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0004" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0005" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0006" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0007" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0008" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0009" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0010" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0011" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0012" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Left0013" x="0" y="264" width="208" height="258" frameX="-3" frameY="-0" frameWidth="211" frameHeight="258"/>
+	<SubTexture name="MAMA Far Right0000" x="0" y="0" width="245" height="259" frameX="-0" frameY="-0" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0001" x="0" y="0" width="245" height="259" frameX="-0" frameY="-0" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0002" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0003" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0004" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0005" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0006" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0007" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0008" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0009" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0010" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0011" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0012" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Right0013" x="250" y="0" width="223" height="254" frameX="-0" frameY="-5" frameWidth="245" frameHeight="260"/>
+	<SubTexture name="MAMA Far Up0000" x="478" y="0" width="202" height="275" frameX="-4" frameY="-0" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0001" x="478" y="0" width="202" height="275" frameX="-4" frameY="-0" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0002" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0003" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0004" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0005" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0006" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0007" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0008" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0009" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0010" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0011" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0012" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+	<SubTexture name="MAMA Far Up0013" x="250" y="259" width="210" height="269" frameX="-0" frameY="-5" frameWidth="211" frameHeight="275"/>
+</TextureAtlas>

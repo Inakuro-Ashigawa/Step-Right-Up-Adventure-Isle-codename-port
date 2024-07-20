@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Goofy_Dog.png" width="2191" height="2366">
+	<SubTexture name="Fuckass Dog Down0000" x="0" y="1978" width="563" height="354" frameX="-9" frameY="-22" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0001" x="0" y="1978" width="563" height="354" frameX="-9" frameY="-22" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0002" x="1825" y="937" width="365" height="567" rotated="true" frameX="-0" frameY="-5" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0003" x="1825" y="937" width="365" height="567" rotated="true" frameX="-0" frameY="-5" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0004" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0005" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0006" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0007" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0008" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0009" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0010" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0011" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0012" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0013" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Down0014" x="1720" y="369" width="368" height="563" rotated="true" frameX="-0" frameY="-0" frameWidth="572" frameHeight="376"/>
+	<SubTexture name="Fuckass Dog Idle0000" x="1839" y="1509" width="352" height="584" frameX="-0" frameY="-0" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0001" x="1839" y="1509" width="352" height="584" frameX="-0" frameY="-0" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0002" x="1839" y="1509" width="352" height="584" frameX="-0" frameY="-0" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0003" x="1480" y="0" width="584" height="364" rotated="true" frameX="-0" frameY="-0" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0004" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0005" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0006" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0007" x="1839" y="1509" width="352" height="584" frameX="-0" frameY="-0" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0008" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0009" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0010" x="1143" y="2024" width="575" height="342" rotated="true" frameX="-8" frameY="-5" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0011" x="1252" y="1597" width="582" height="422" rotated="true" frameX="-8" frameY="-4" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0012" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0013" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Idle0014" x="0" y="1123" width="585" height="427" rotated="true" frameX="-5" frameY="-2" frameWidth="432" frameHeight="587"/>
+	<SubTexture name="Fuckass Dog Left0000" x="0" y="0" width="783" height="503" frameX="-0" frameY="-0" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0001" x="0" y="0" width="783" height="503" frameX="-0" frameY="-0" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0002" x="788" y="0" width="687" height="462" frameX="-67" frameY="-31" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0003" x="788" y="0" width="687" height="462" frameX="-67" frameY="-31" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0004" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0005" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0006" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0007" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0008" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0009" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0010" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0011" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0012" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0013" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Left0014" x="1252" y="467" width="463" height="675" rotated="true" frameX="-81" frameY="-27" frameWidth="783" frameHeight="504"/>
+	<SubTexture name="Fuckass Dog Right0000" x="1252" y="1147" width="568" height="445" rotated="true" frameX="-12" frameY="-6" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0001" x="1252" y="1147" width="568" height="445" rotated="true" frameX="-12" frameY="-6" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0002" x="0" y="1555" width="566" height="418" rotated="true" frameX="-0" frameY="-1" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0003" x="0" y="1555" width="566" height="418" rotated="true" frameX="-0" frameY="-1" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0004" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0005" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0006" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0007" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0008" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0009" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0010" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0011" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0012" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0013" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Right0014" x="571" y="1666" width="567" height="407" rotated="true" frameX="-5" frameY="-0" frameWidth="457" frameHeight="574"/>
+	<SubTexture name="Fuckass Dog Up0000" x="0" y="508" width="618" height="610" rotated="true" frameX="-4" frameY="-0" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0001" x="0" y="508" width="618" height="610" rotated="true" frameX="-4" frameY="-0" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0002" x="623" y="508" width="622" height="579" frameX="-0" frameY="-25" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0003" x="623" y="508" width="622" height="579" frameX="-0" frameY="-25" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0004" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0005" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0006" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0007" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0008" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0009" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0010" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0011" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0012" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0013" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+	<SubTexture name="Fuckass Dog Up0014" x="623" y="1092" width="624" height="569" frameX="-0" frameY="-33" frameWidth="624" frameHeight="618"/>
+</TextureAtlas>

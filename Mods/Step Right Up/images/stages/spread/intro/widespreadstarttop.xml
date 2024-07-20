@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="widespreadstarttop.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="smilestarttop0000" x="100" y="100" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0001" x="2498" y="100" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0002" x="4896" y="100" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0003" x="100" y="1987" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0004" x="2498" y="1987" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0005" x="4896" y="1987" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0006" x="100" y="3874" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0007" x="2498" y="3874" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0008" x="4896" y="3874" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0009" x="100" y="5761" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0010" x="2498" y="5761" width="2298" height="1787"/>
+	<SubTexture name="smilestarttop0011" x="4896" y="5761" width="2298" height="1787"/>
+</TextureAtlas>

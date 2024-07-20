@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="goofy dog run.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="runny dog0000" x="10" y="10" width="168" height="170" frameX="0" frameY="-9" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0001" x="10" y="10" width="168" height="170" frameX="0" frameY="-9" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0002" x="178" y="10" width="101" height="178" frameX="-35" frameY="0" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0003" x="178" y="10" width="101" height="178" frameX="-35" frameY="0" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0004" x="279" y="10" width="110" height="163" frameX="-32" frameY="-2" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0005" x="279" y="10" width="110" height="163" frameX="-32" frameY="-2" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0006" x="10" y="188" width="118" height="134" frameX="-39" frameY="-42" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0007" x="128" y="188" width="118" height="135" frameX="-19" frameY="-44" frameWidth="168" frameHeight="179"/>
+	<SubTexture name="runny dog0008" x="128" y="188" width="118" height="135" frameX="-19" frameY="-44" frameWidth="168" frameHeight="179"/>
+</TextureAtlas>

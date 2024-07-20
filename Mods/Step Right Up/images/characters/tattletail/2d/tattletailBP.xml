@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="tattletailBP.png" width="3313" height="258">
+	<SubTexture name="Tattletail B20000" x="1468" y="0" width="365" height="257" rotated="true" frameX="-0" frameY="-9" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20001" x="1838" y="0" width="365" height="257" rotated="true" frameX="-0" frameY="-9" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20002" x="2208" y="0" width="366" height="258" rotated="true" frameX="-3" frameY="-7" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20003" x="2579" y="0" width="366" height="258" rotated="true" frameX="-3" frameY="-7" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20004" x="2950" y="0" width="363" height="258" rotated="true" frameX="-7" frameY="-9" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20005" x="0" y="0" width="363" height="255" rotated="true" frameX="-7" frameY="-9" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20006" x="368" y="0" width="362" height="256" rotated="true" frameX="-8" frameY="-10" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20007" x="735" y="0" width="362" height="256" rotated="true" frameX="-9" frameY="-10" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20008" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20009" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20010" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20011" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20012" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20013" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+	<SubTexture name="Tattletail B20014" x="1102" y="0" width="361" height="256" rotated="true" frameX="-9" frameY="-11" frameWidth="266" frameHeight="374"/>
+</TextureAtlas>

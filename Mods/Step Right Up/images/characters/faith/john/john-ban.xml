@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="john-ban.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="john ban down0000" x="795" y="168" width="147" height="69"/>
+	<SubTexture name="john ban down0001" x="10" y="247" width="147" height="69"/>
+	<SubTexture name="john ban down0002" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban down0003" x="10" y="10" width="147" height="69"/>
+	<SubTexture name="john ban down0004" x="167" y="10" width="147" height="69"/>
+	<SubTexture name="john ban down0005" x="324" y="10" width="147" height="69"/>
+	<SubTexture name="john ban down0006" x="481" y="10" width="147" height="69"/>
+	<SubTexture name="john ban down0007" x="638" y="10" width="147" height="69"/>
+	<SubTexture name="john ban idle0000" x="795" y="10" width="147" height="69"/>
+	<SubTexture name="john ban idle0001" x="10" y="89" width="147" height="69"/>
+	<SubTexture name="john ban idle0002" x="167" y="89" width="147" height="69"/>
+	<SubTexture name="john ban idle0003" x="324" y="89" width="147" height="69"/>
+	<SubTexture name="john ban idle0004" x="481" y="89" width="147" height="69"/>
+	<SubTexture name="john ban idle0005" x="638" y="89" width="147" height="69"/>
+	<SubTexture name="john ban left0000" x="481" y="247" width="147" height="69"/>
+	<SubTexture name="john ban left0001" x="638" y="247" width="147" height="69"/>
+	<SubTexture name="john ban left0002" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban left0003" x="795" y="89" width="147" height="69"/>
+	<SubTexture name="john ban left0004" x="10" y="168" width="147" height="69"/>
+	<SubTexture name="john ban left0005" x="167" y="168" width="147" height="69"/>
+	<SubTexture name="john ban left0006" x="324" y="168" width="147" height="69"/>
+	<SubTexture name="john ban left0007" x="481" y="168" width="147" height="69"/>
+	<SubTexture name="john ban left0008" x="638" y="168" width="147" height="69"/>
+	<SubTexture name="john ban miss down0000" x="795" y="168" width="147" height="69"/>
+	<SubTexture name="john ban miss down0001" x="10" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0002" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0003" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0004" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0005" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0006" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0007" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0008" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0009" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0010" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0011" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0012" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0013" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0014" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0015" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0016" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0017" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0018" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0019" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0020" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0021" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0022" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0023" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0024" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0025" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0026" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0027" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0028" x="167" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss down0029" x="324" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0000" x="481" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0001" x="638" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0002" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0003" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0004" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0005" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0006" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0007" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0008" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0009" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0010" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0011" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0012" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0013" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0014" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0015" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0016" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0017" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0018" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0019" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0020" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0021" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0022" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0023" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0024" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0025" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0026" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0027" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss left0028" x="795" y="247" width="147" height="69"/>
+	<SubTexture name="john ban miss left0029" x="10" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0000" x="481" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0001" x="638" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0002" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0003" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0004" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0005" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0006" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0007" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0008" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0009" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0010" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0011" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0012" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0013" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0014" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0015" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0016" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0017" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0018" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0019" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0020" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0021" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0022" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0023" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0024" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0025" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0026" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0027" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0028" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss right0029" x="167" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0000" x="795" y="405" width="147" height="69"/>
+	<SubTexture name="john ban miss up0001" x="10" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0002" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0003" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0004" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0005" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0006" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0007" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0008" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0009" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0010" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0011" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0012" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0013" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0014" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0015" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0016" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0017" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0018" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0019" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0020" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0021" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0022" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0023" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0024" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0025" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0026" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0027" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban miss up0028" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban miss up0029" x="324" y="326" width="147" height="69"/>
+	<SubTexture name="john ban right0000" x="481" y="326" width="147" height="69"/>
+	<SubTexture name="john ban right0001" x="638" y="326" width="147" height="69"/>
+	<SubTexture name="john ban right0002" x="795" y="326" width="147" height="69"/>
+	<SubTexture name="john ban right0003" x="10" y="405" width="147" height="69"/>
+	<SubTexture name="john ban right0004" x="167" y="405" width="147" height="69"/>
+	<SubTexture name="john ban right0005" x="324" y="405" width="147" height="69"/>
+	<SubTexture name="john ban right0006" x="481" y="405" width="147" height="69"/>
+	<SubTexture name="john ban right0007" x="638" y="405" width="147" height="69"/>
+	<SubTexture name="john ban up0000" x="795" y="405" width="147" height="69"/>
+	<SubTexture name="john ban up0001" x="10" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0002" x="167" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0003" x="324" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0004" x="481" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0005" x="638" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0006" x="795" y="484" width="147" height="69"/>
+	<SubTexture name="john ban up0007" x="10" y="563" width="147" height="69"/>
+</TextureAtlas>

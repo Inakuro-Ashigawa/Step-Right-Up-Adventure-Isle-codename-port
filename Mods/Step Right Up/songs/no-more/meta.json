@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 200,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -2470631,
+	"displayName": "No More",
+	"icon": "tattle-mama",
+	"name": "no-more",
+	"color": "#DA4D19"
+}

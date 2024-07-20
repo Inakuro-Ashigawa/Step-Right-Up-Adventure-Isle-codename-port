@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="slash.png">
+<!-- Created with Adobe Animate version 23.0.1.70 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="slash10000" x="0" y="0" width="447" height="157"/>
+<SubTexture name="slash10001" x="447" y="0" width="447" height="157"/>
+<SubTexture name="slash10002" x="0" y="157" width="447" height="157"/>
+<SubTexture name="slash10003" x="447" y="0" width="447" height="157"/>
+<SubTexture name="slash10004" x="447" y="157" width="447" height="157"/>
+<SubTexture name="slash10005" x="0" y="314" width="447" height="157"/>
+<SubTexture name="slash10006" x="447" y="314" width="447" height="157"/>
+<SubTexture name="slash10007" x="447" y="314" width="447" height="157"/>
+<SubTexture name="slash10008" x="0" y="471" width="447" height="157"/>
+<SubTexture name="slash10009" x="0" y="471" width="447" height="157"/>
+<SubTexture name="slash10010" x="447" y="471" width="447" height="157"/>
+<SubTexture name="slash10011" x="447" y="471" width="447" height="157"/>
+<SubTexture name="slash10012" x="0" y="628" width="447" height="157"/>
+<SubTexture name="slash10013" x="0" y="628" width="447" height="157"/>
+<SubTexture name="slash10014" x="447" y="0" width="447" height="157"/>
+<SubTexture name="slash10015" x="447" y="628" width="447" height="157"/>
+<SubTexture name="slash10016" x="447" y="0" width="447" height="157"/>
+<SubTexture name="slash10017" x="447" y="0" width="447" height="157"/>
+<SubTexture name="slash10018" x="447" y="0" width="447" height="157"/>
+</TextureAtlas>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="startbg.png" width="7476" height="1838">
+	<SubTexture name="transition0000" x="5840" y="856" width="1636" height="982" frameX="-121" frameY="-0" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0001" x="5840" y="856" width="1636" height="982" frameX="-121" frameY="-0" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0002" x="5840" y="856" width="1636" height="982" frameX="-121" frameY="-0" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0003" x="5840" y="856" width="1636" height="982" frameX="-121" frameY="-0" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0004" x="5840" y="856" width="1636" height="982" frameX="-121" frameY="-0" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0005" x="0" y="842" width="1488" height="888" frameX="-137" frameY="-183" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0006" x="0" y="842" width="1488" height="888" frameX="-137" frameY="-183" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0007" x="0" y="842" width="1488" height="888" frameX="-137" frameY="-183" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0008" x="2913" y="852" width="1458" height="905" frameX="-129" frameY="-184" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0009" x="2913" y="852" width="1458" height="905" frameX="-129" frameY="-184" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0010" x="2913" y="852" width="1458" height="905" frameX="-129" frameY="-184" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0011" x="2913" y="852" width="1458" height="905" frameX="-129" frameY="-184" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0012" x="4376" y="856" width="1459" height="905" frameX="-73" frameY="-225" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0013" x="4376" y="856" width="1459" height="905" frameX="-73" frameY="-225" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0014" x="1493" y="846" width="1415" height="893" frameX="-9" frameY="-271" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0015" x="1493" y="846" width="1415" height="893" frameX="-9" frameY="-271" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0016" x="4194" y="0" width="1403" height="847" frameX="-1" frameY="-307" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0017" x="4194" y="0" width="1403" height="847" frameX="-1" frameY="-307" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0018" x="5602" y="0" width="1405" height="851" frameX="-0" frameY="-305" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0019" x="5602" y="0" width="1405" height="851" frameX="-0" frameY="-305" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0020" x="0" y="0" width="1389" height="835" frameX="-8" frameY="-313" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0021" x="0" y="0" width="1389" height="835" frameX="-8" frameY="-313" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0022" x="2792" y="0" width="1397" height="841" frameX="-4" frameY="-310" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0023" x="2792" y="0" width="1397" height="841" frameX="-4" frameY="-310" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0024" x="1394" y="0" width="1393" height="837" frameX="-6" frameY="-312" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0025" x="1394" y="0" width="1393" height="837" frameX="-6" frameY="-312" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0026" x="0" y="0" width="1389" height="835" frameX="-8" frameY="-313" frameWidth="1757" frameHeight="1164"/>
+	<SubTexture name="transition0027" x="0" y="0" width="1389" height="835" frameX="-8" frameY="-313" frameWidth="1757" frameHeight="1164"/>
+</TextureAtlas>

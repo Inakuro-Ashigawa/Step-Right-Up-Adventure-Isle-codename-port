@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="topphoto.png">
+<SubTexture name="topphoto0000" x="0" y="0" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0001" x="0" y="0" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0002" x="0" y="367" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0003" x="0" y="367" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0004" x="752" y="0" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0005" x="752" y="0" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0006" x="752" y="367" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0007" x="752" y="367" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0008" x="0" y="734" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+<SubTexture name="topphoto0009" x="0" y="734" width="752" height="367" frameX="0" frameY="0" frameWidth="752" frameHeight="367" />
+</TextureAtlas>

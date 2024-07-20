@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amy-ban.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="amy ban down0000" x="10" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0001" x="135" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0002" x="260" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0003" x="385" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0004" x="510" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0005" x="635" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0006" x="760" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban down0007" x="885" y="10" width="115" height="127"/>
+	<SubTexture name="amy ban idle0000" x="10" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban idle0001" x="135" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban idle0002" x="260" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban idle0003" x="385" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban idle0004" x="510" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban idle0005" x="635" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban left0000" x="760" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban left0001" x="885" y="147" width="115" height="127"/>
+	<SubTexture name="amy ban left0002" x="10" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban left0003" x="135" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban left0004" x="260" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban left0005" x="385" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban left0006" x="510" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban left0007" x="635" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban right0000" x="760" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban right0001" x="885" y="284" width="115" height="127"/>
+	<SubTexture name="amy ban right0002" x="10" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0003" x="135" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0004" x="260" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0005" x="385" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0006" x="510" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0007" x="635" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban right0008" x="760" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban up0000" x="885" y="421" width="115" height="127"/>
+	<SubTexture name="amy ban up0001" x="10" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0002" x="135" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0003" x="260" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0004" x="385" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0005" x="510" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0006" x="635" y="558" width="115" height="127"/>
+	<SubTexture name="amy ban up0007" x="760" y="558" width="115" height="127"/>
+</TextureAtlas>
