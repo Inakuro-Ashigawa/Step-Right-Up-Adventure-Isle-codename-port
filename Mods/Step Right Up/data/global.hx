@@ -11,6 +11,7 @@ static var redirectStates:Map<FlxState, String> = [
 ];
 
 function preStateSwitch() {
+    FlxG.mouse.useSystemCursor = false;
 	FlxG.mouse.visible = true;
     
     for (redirectState in redirectStates.keys())

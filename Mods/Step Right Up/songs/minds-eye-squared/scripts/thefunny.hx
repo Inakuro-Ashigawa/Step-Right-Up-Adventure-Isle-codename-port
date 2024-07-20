@@ -16,8 +16,6 @@ var resizey:Int = Capabilities.screenResolutionY / 1.5;
 var tweenWindow1X, tweenWindow1Y, tweenWindow2X, tweenWindow2Y:FlxTween;
 var getWallpaper = NdllUtil.getFunction('ndll-mario', 'get_wallpaper', 0);
 var setWallpaper = NdllUtil.getFunction("ndll-mario", "change_wallpaper", 1);
-var setTransparent = NdllUtil.getFunction('ndll-mario', 'set_transparent', 4);
-var removeTransparent = NdllUtil.getFunction('ndll-mario', 'remove_transparent', 0);
 var realPath = StringTools.replace(FileSystem.absolutePath(Assets.getPath("assets/images/SmileDogBG.webp")), "/", "\\");
 var realPath2 = StringTools.replace(FileSystem.absolutePath(Assets.getPath("assets/images/stages/smile/hellnah.png")), "/", "\\");
 
@@ -30,6 +28,7 @@ changey = window.y;
 window.fullscreen = false;
 window.resizable = false;
 window.opacity = 1;
+canPause = true;
 
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
@@ -38,7 +37,7 @@ function addBehindDad(thing){
 }
 
 function create(){
-    //player.cpu = true;
+    player.cpu = true;
 
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
     intro1.scale.set(0, 0);
@@ -60,9 +59,22 @@ function create(){
 	error.alpha = 0.001;
 	add(error);
 
-	tweenWindow1Y = FlxTween.tween(window, {y: changey + changex / 4}, 3, {ease: FlxEase.quadInOut, type: 4});
-    tweenWindow1X = FlxTween.tween(window, {x: changex + changex / 2}, 5, {ease: FlxEase.quadInOut, type: 4});
+	//healthBar
+	healthFil = new FlxSprite(840,540).loadGraphic(Paths.image("healthbars/smile/win-p1"));
+	healthFil.camera = camHUD;
+	add(healthFil);
+
+	healthFrame = new FlxSprite(770,470).loadGraphic(Paths.image("healthbars/smile/frame"));
+	healthFrame.camera = camHUD;
+	add(healthFrame);
+
+
+	tweenWindow1Y = FlxTween.tween(window, {y: changey + changex / 3}, 7, {ease: FlxEase.quadInOut, type: 4});
+    tweenWindow1X = FlxTween.tween(window, {x: changex + changex / 2}, 4, {ease: FlxEase.quadInOut, type: 4});
     tweenWindow1Y.active = tweenWindow1X.active = false;
+
+	//stage.getSprite("FIRST_BG").alpha = stage.getSprite("FIRST_PC").alpha = 0;
+
 }
 function destroy(){
     setWallpaper(prevWallpaper);
@@ -73,6 +85,7 @@ function onSongStart(){
 }
 function wallpaper(){
 	setWallpaper(realPath);
+	canPause = false;
 	camGame.alpha = window.opacity = 0;
 }
 function move(){
@@ -86,7 +99,13 @@ function fullwin(){
 		window.borderless = false;
 	}});
 }
+function postCreate(){
+	healthBar.alpha = healthBarBG.alpha = 0;
+}
+function postUpdate(){
+}
 function update(){
+	iconP1.y = 100;
 	DEATHTOALL.x = dad.x;
 	DEATHTOALL.y = dad.y - 100;
 }
@@ -99,8 +118,11 @@ function windowmoves(){
     new FlxTimer().start(.1, function(tmr:FlxTimer)
 	{
 		tweenWindow1X.active = tweenWindow1Y.active = true;
+		//window.fullscreen = window.resizable = true;
 		camGame.alpha = 1;
 		window.opacity = 1;
+		canPause = true;
+		stage.getSprite("FIRST_BG").alpha = stage.getSprite("FIRST_PC").alpha = 0;
 	});
 }
 function postUpdate(){
@@ -119,4 +141,9 @@ function back(){
 	error.alpha = 0;
 	boyfriend.x = 900;
 	dad.x = 0;
+}
+function ending(){
+	setWallpaper(realPath);
+	DEATHTOALL.alpha = 1;
+	boyfriend.alpha = 0.001;
 }

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dogbarslashed.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="dogbarslashed0000" x="50" y="50" width="395" height="76"/>
+<SubTexture name="dogbarslashed0001" x="50" y="50" width="395" height="76"/>
+<SubTexture name="dogbarslashed0002" x="50" y="50" width="395" height="76"/>
+<SubTexture name="dogbarslashed0003" x="50" y="50" width="395" height="76"/>
+<SubTexture name="dogbarslashed0004" x="50" y="50" width="395" height="76"/>
+<SubTexture name="dogbarslashed0005" x="50" y="176" width="395" height="76"/>
+<SubTexture name="dogbarslashed0006" x="50" y="176" width="395" height="76"/>
+<SubTexture name="dogbarslashed0007" x="50" y="176" width="395" height="76"/>
+<SubTexture name="dogbarslashed0008" x="50" y="176" width="395" height="76"/>
+<SubTexture name="dogbarslashed0009" x="50" y="176" width="395" height="76"/>
+<SubTexture name="dogbarslashed0010" x="50" y="303" width="395" height="76"/>
+<SubTexture name="dogbarslashed0011" x="50" y="303" width="395" height="76"/>
+<SubTexture name="dogbarslashed0012" x="50" y="303" width="395" height="76"/>
+<SubTexture name="dogbarslashed0013" x="50" y="303" width="395" height="76"/>
+<SubTexture name="dogbarslashed0014" x="50" y="303" width="395" height="76"/>
+</TextureAtlas>

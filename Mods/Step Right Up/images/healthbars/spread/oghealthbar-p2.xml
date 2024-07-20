@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dogbar.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="dogbar0000" x="50" y="50" width="681" height="55"/>
+<SubTexture name="dogbar0001" x="50" y="50" width="681" height="55"/>
+<SubTexture name="dogbar0002" x="50" y="50" width="681" height="55"/>
+<SubTexture name="dogbar0003" x="50" y="50" width="681" height="55"/>
+<SubTexture name="dogbar0004" x="50" y="50" width="681" height="55"/>
+<SubTexture name="dogbar0005" x="50" y="155" width="681" height="55"/>
+<SubTexture name="dogbar0006" x="50" y="155" width="681" height="55"/>
+<SubTexture name="dogbar0007" x="50" y="155" width="681" height="55"/>
+<SubTexture name="dogbar0008" x="50" y="155" width="681" height="55"/>
+<SubTexture name="dogbar0009" x="50" y="155" width="681" height="55"/>
+<SubTexture name="dogbar0010" x="50" y="260" width="681" height="55"/>
+<SubTexture name="dogbar0011" x="50" y="260" width="681" height="55"/>
+<SubTexture name="dogbar0012" x="50" y="260" width="681" height="55"/>
+<SubTexture name="dogbar0013" x="50" y="260" width="681" height="55"/>
+<SubTexture name="dogbar0014" x="50" y="260" width="681" height="55"/>
+</TextureAtlas>

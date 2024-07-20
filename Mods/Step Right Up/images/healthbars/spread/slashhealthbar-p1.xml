@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sarabarslashed.png">
+<!-- Created with Adobe Animate version 23.0.2.103 -->
+<!-- http://www.adobe.com/products/animate.html -->
+<SubTexture name="sarabarslashed0000" x="50" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0001" x="50" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0002" x="50" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0003" x="50" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0004" x="50" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0005" x="495" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0006" x="495" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0007" x="495" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0008" x="495" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0009" x="495" y="50" width="395" height="76"/>
+<SubTexture name="sarabarslashed0010" x="50" y="176" width="395" height="76"/>
+<SubTexture name="sarabarslashed0011" x="50" y="176" width="395" height="76"/>
+<SubTexture name="sarabarslashed0012" x="50" y="176" width="395" height="76"/>
+<SubTexture name="sarabarslashed0013" x="50" y="176" width="395" height="76"/>
+<SubTexture name="sarabarslashed0014" x="495" y="176" width="395" height="76"/>
+</TextureAtlas>

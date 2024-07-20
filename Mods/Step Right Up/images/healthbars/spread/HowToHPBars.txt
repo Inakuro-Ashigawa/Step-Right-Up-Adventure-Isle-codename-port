@@ -1,0 +1,6 @@
+Put two versions of an hp bar here.
+
+- For players hp, add "-p1" to the end of the file name
+- For players hp, add "-p2" to the end of the file name
+
+MAKE SURE that both sprites are the same size
