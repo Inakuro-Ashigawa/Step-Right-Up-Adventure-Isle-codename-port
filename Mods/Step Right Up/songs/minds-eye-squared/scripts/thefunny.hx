@@ -38,8 +38,6 @@ function addBehindDad(thing){
 }
 
 function create(){
-    player.cpu = true;
-
 	camGame.alpha = 0.001;
 
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
