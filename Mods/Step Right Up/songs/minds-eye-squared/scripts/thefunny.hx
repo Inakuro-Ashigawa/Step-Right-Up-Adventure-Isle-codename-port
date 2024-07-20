@@ -193,5 +193,9 @@ function randomMove(){
 }
 function endReal(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
+	FlxTween.tween(window, {opacity: 0}, 1, {ease: FlxEase.expoOut});
 	setWallpaper(realPath3);
+}
+function onSongEnd(){
+	window.opacity = 1;
 }
