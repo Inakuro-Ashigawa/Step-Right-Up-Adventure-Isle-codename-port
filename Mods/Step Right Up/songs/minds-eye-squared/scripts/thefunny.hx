@@ -1,14 +1,20 @@
+import Sys;
 import sys.FileSystem;
+import flixel.util.FlxAxes;
 import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
+import flixel.addons.display.FlxBackdrop;
+
 
 
 var winX:Int = 325;
 var winY:Int = 185;
 var prevWallpaper = [];
 var cutscene:Bool = false;
-var intro1,error:FlxSprite;
+var intro1,error,exit:FlxSprite;
 var timerTween:NumTween;
+var fuckers:FlxBackdrop;
+var fuckers2:FlxBackdrop;
 var fsX:Int = Capabilities.screenResolutionX;
 var fsY:Int = Capabilities.screenResolutionY;
 var resizex:Int = Capabilities.screenResolutionX / 1.5;
@@ -26,7 +32,7 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-window.fullscreen = true;
+//window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
@@ -37,8 +43,14 @@ function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
 
+function addBehindbf(thing){
+    insert(members.indexOf(boyfriend), thing);
+}
 function create(){
-	camGame.alpha = 0.001;
+	window.title = "SRUAI - MINDS EYE SQUARED";
+
+	//camGame.alpha = 0.001;
+	player.cpu = true;
 
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
     intro1.scale.set(0, 0);
@@ -78,12 +90,49 @@ function create(){
 	healthFrame.camera = camHUD;
 	add(healthFrame);
 
+	fuckers = new FlxBackdrop(FlxAxes.X, FlxAxes.X);
+	fuckers.frames = Paths.getSparrowAtlas('stages/smile/fuckers');
+	fuckers.animation.addByPrefix('idle', "loop",12, true);
+	fuckers.animation.play('idle');
+	fuckers.antialiasing = true;
+	fuckers.velocity.x = 600;
+	fuckers.y -= 10;
+	fuckers.flipY = true;
+	fuckers.scrollFactor;
+	addBehindbf(fuckers);
+
+	fuckers2 = new FlxBackdrop(FlxAxes.X, FlxAxes.X);
+	fuckers2.frames = Paths.getSparrowAtlas('stages/smile/fuckers');
+	fuckers2.animation.addByPrefix('idle', "loop",12, true);
+	fuckers2.animation.play('idle');
+	fuckers2.antialiasing = true;
+	fuckers2.velocity.x = 600;
+	fuckers2.y += 550;
+	addBehindbf(fuckers2);
+	fuckers2.scrollFactor;
+
+	fuckers.alpha = fuckers2.alpha = 0.001;
+	fuckers.camera = fuckers2.camera = camHUD;
+
 	tweenWindow1Y = FlxTween.tween(window, {y: changey + changex / 3}, 7, {ease: FlxEase.quadInOut, type: 4});
     tweenWindow1X = FlxTween.tween(window, {x: changex + changex / 2}, 4, {ease: FlxEase.quadInOut, type: 4});
     tweenWindow1Y.active = tweenWindow1X.active = false;
 
-	//stage.getSprite("FIRST_BG").alpha = stage.getSprite("FIRST_PC").alpha = 0;
+	exit = new FlxSprite(1210,530);
+    exit.makeGraphic(24, 24, 0xFFFF0000);
+    exit.scrollFactor;
+	exit.camera = camHUD;
+    add(exit);
 
+	screen = new FlxSprite(1180,560);
+    screen.makeGraphic(24, 24, 0xFFFF0000);
+    screen.scrollFactor;
+	screen.camera = camHUD;
+    add(screen);
+
+	screen.alpha = exit.alpha = 0;
+
+	//stage.getSprite("FIRST_BG").alpha = stage.getSprite("FIRST_PC").alpha = 0;
 }
 function destroy(){
     setWallpaper(prevWallpaper);
@@ -114,7 +163,7 @@ function fullwin(){
 function postCreate(){
 	healthBar.alpha = healthBarBG.alpha = 0;
 }
-function update(){
+function update(elapsed){
 	iconP1.alpha = iconP2.alpha = 0.001;
 	DEATHTOALL.x = dad.x;
 	DEATHTOALL.y = dad.y - 100;
@@ -143,6 +192,7 @@ function postUpdate(){
 	if (cutscene){
 		healthBar.alpha = iconP1.alpha = iconP2.alpha = healthBarBG.alpha = 0;
     }
+	clicks();
 }
 function crash(){
 	tweenWindow1X.active = tweenWindow1Y.active = true;	
@@ -170,6 +220,9 @@ function noMove(){
 function MoveAgian(){
 	tweenWindow1X.active = tweenWindow1Y.active = true;
 }
+function beatDroup(){
+	fuckers.alpha = fuckers2.alpha = 1;
+}
 function back(){
 	setWallpaper(realPath2);
 	boyfriend.alpha = 1;
@@ -179,6 +232,7 @@ function back(){
 }
 function ending(){
 	setWallpaper(realPath);
+	fuckers.alpha = fuckers2.alpha = 0.001;
 	DEATHTOALL.alpha = 1;
 	boyfriend.alpha = 0.001;
 }
@@ -196,4 +250,16 @@ function endReal(){
 }
 function onSongEnd(){
 	window.opacity = 1;
+}
+function clicks(){
+	if (FlxG.mouse.justPressed) {
+		trace('clicked');
+	}
+	if (FlxG.mouse.overlaps(exit) && FlxG.mouse.justPressed){
+		trace('exit');	
+		Sys.exit(0);
+	}
+	if (FlxG.mouse.overlaps(screen) && FlxG.mouse.justPressed){
+		trace('fullScreen');	
+	}
 }
