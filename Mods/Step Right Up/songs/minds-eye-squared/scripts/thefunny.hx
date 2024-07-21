@@ -48,9 +48,7 @@ function addBehindbf(thing){
 }
 function create(){
 	window.title = "SRUAI - MINDS EYE SQUARED";
-
-	//camGame.alpha = 0.001;
-	player.cpu = true;
+	camGame.alpha = 0.001;
 
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
     intro1.scale.set(0, 0);
@@ -144,7 +142,7 @@ function onSongStart(){
 function wallpaper(){
 	canPause = false;
 	setWallpaper(realPath);
-	//FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
+	FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
 	camGame.alpha = window.opacity = 0;
 }
 function move(){
