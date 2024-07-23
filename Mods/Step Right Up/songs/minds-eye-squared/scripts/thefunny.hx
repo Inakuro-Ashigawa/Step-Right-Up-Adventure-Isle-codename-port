@@ -5,8 +5,6 @@ import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
 import flixel.addons.display.FlxBackdrop;
 
-
-
 var winX:Int = 325;
 var winY:Int = 185;
 var prevWallpaper = [];
@@ -32,7 +30,7 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-//window.fullscreen = true;
+window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
@@ -129,8 +127,6 @@ function create(){
     add(screen);
 
 	screen.alpha = exit.alpha = 0;
-
-	//stage.getSprite("FIRST_BG").alpha = stage.getSprite("FIRST_PC").alpha = 0;
 }
 function destroy(){
     setWallpaper(prevWallpaper);
@@ -140,7 +136,7 @@ function onSongStart(){
 	FlxTween.tween(intro1.scale, {'x': 1, 'y': 1}, 30, {ease: FlxEase.circInOut});
 }
 function wallpaper(){
-	canPause = false;
+	canPause = window.fullscreen = false;
 	setWallpaper(realPath);
 	FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
 	camGame.alpha = window.opacity = 0;
@@ -229,21 +225,20 @@ function back(){
 	dad.x = 0;
 }
 function ending(){
-	setWallpaper(realPath);
 	fuckers.alpha = fuckers2.alpha = 0.001;
 	DEATHTOALL.alpha = 1;
 	boyfriend.alpha = 0.001;
 }
 function randomMove(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
-	window.x = FlxG.random.float(200, 400);
-	window.y = FlxG.random.float(100, -0.5);
+	window.x = FlxG.random.float(1, 900);
+	window.y = FlxG.random.float(1, 900);
 	trace(window.x);
 	trace(window.y);
 }
 function endReal(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
-	FlxTween.tween(window, {opacity: 0}, 1, {ease: FlxEase.expoOut});
+	FlxTween.tween(window, {opacity: 0}, 3, {ease: FlxEase.expoOut});
 	setWallpaper(realPath3);
 }
 function onSongEnd(){
