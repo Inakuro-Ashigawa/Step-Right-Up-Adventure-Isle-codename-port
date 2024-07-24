@@ -171,7 +171,7 @@ function events(name){
     if (name == "whitefade"){
         FlxTween.tween(whiteThingie, {alpha: 1.1}, 2, {ease: FlxEase.circOut, onComplete: function(twn:FlxTween){
             alone_actual.alpha = whiteThingie.alpha = 0.001;
-            boderv1.alpha = boderv2.alpha = 1;
+            boderv1.alpha = boderv2.alpha = dad.alpha = 1;
             boyfriend.y = 40;
             boyfriend.x = 1000;
             dad.y = -35;
@@ -204,7 +204,7 @@ function events(name){
         zoom(4);     
     }
     if (name == "solo"){
-        entrance.alpha = 0.001;
+        entrance.alpha = dad.alpha =  0.001;
     }
     if (name == "video"){
         mortis.alpha = 1;
