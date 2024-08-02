@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="door.png" width="3018" height="3109">
+	<SubTexture name="doorclosed0000" x="2323" y="1780" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropen0000" x="2350" y="0" width="326" height="439" frameX="-26" frameY="-29" frameWidth="360" frameHeight="517"/>
+	<SubTexture name="dooropening0000" x="2323" y="1780" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0001" x="2323" y="1780" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0002" x="2336" y="1335" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0003" x="0" y="2670" width="340" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0004" x="345" y="2670" width="339" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0005" x="689" y="2670" width="338" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0006" x="1032" y="2670" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0007" x="1376" y="2670" width="339" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0008" x="1720" y="2670" width="337" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0009" x="2062" y="2670" width="336" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0010" x="2403" y="2670" width="336" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0011" x="2681" y="0" width="337" height="439" frameX="-59" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0012" x="2346" y="890" width="335" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0013" x="2648" y="2224" width="335" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0014" x="2667" y="1779" width="334" height="439" frameX="-60" frameY="-29" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0015" x="0" y="0" width="334" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0016" x="339" y="0" width="334" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0017" x="0" y="445" width="333" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0018" x="338" y="445" width="334" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0019" x="677" y="445" width="333" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0020" x="678" y="0" width="333" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0021" x="0" y="890" width="332" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0022" x="337" y="890" width="333" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0023" x="675" y="890" width="331" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0024" x="1011" y="890" width="331" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0025" x="1015" y="445" width="331" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0026" x="1016" y="0" width="331" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0027" x="0" y="1335" width="330" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0028" x="335" y="1335" width="329" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0029" x="669" y="1335" width="330" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0030" x="1004" y="1335" width="329" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0031" x="1338" y="1335" width="329" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0032" x="1347" y="890" width="329" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0033" x="1351" y="445" width="330" height="440" frameX="-60" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0034" x="1352" y="0" width="328" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0035" x="1672" y="1335" width="328" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0036" x="1685" y="0" width="328" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0037" x="1681" y="890" width="328" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0038" x="1686" y="445" width="328" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0039" x="0" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0040" x="332" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0041" x="664" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0042" x="996" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0043" x="1328" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0044" x="1660" y="1780" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0045" x="2018" y="0" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0046" x="1992" y="1780" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0047" x="2005" y="1335" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0048" x="2014" y="890" width="327" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0049" x="2019" y="445" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0050" x="0" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0051" x="331" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0052" x="662" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0053" x="993" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0054" x="1324" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0055" x="1655" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0056" x="1986" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0057" x="2317" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0058" x="2317" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+	<SubTexture name="dooropening0059" x="2317" y="2225" width="326" height="440" frameX="-61" frameY="-28" frameWidth="425" frameHeight="517"/>
+</TextureAtlas>

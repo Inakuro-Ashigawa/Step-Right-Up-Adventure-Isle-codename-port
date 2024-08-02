@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="ticket_flying.png" width="3130" height="3154">
+	<SubTexture name="Ticket flying0000" x="2406" y="2102" width="41" height="182" frameX="-1216" frameY="-92" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0001" x="2808" y="2413" width="49" height="110" frameX="-1208" frameY="-19" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0002" x="1555" y="3052" width="83" height="91" frameX="-1146" frameY="-0" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0003" x="1555" y="3052" width="83" height="91" frameX="-1146" frameY="-0" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0004" x="2139" y="2254" width="129" height="47" frameX="-1062" frameY="-10" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0005" x="2139" y="2254" width="129" height="47" frameX="-1062" frameY="-10" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0006" x="2795" y="3099" width="141" height="53" frameX="-991" frameY="-23" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0007" x="2795" y="3099" width="141" height="53" frameX="-991" frameY="-23" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0008" x="1975" y="2115" width="146" height="76" frameX="-910" frameY="-54" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0009" x="1975" y="2115" width="146" height="76" frameX="-910" frameY="-54" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0010" x="3011" y="3012" width="119" height="114" frameX="-876" frameY="-88" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0011" x="3011" y="3012" width="119" height="114" frameX="-876" frameY="-88" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0012" x="2658" y="3023" width="132" height="101" frameX="-816" frameY="-142" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0013" x="2658" y="3023" width="132" height="101" frameX="-816" frameY="-142" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0014" x="1980" y="2196" width="154" height="58" frameX="-700" frameY="-197" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0015" x="1980" y="2196" width="154" height="58" frameX="-700" frameY="-197" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0016" x="2467" y="3023" width="186" height="86" frameX="-600" frameY="-170" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0017" x="2467" y="3023" width="186" height="86" frameX="-600" frameY="-170" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0018" x="1779" y="2115" width="191" height="82" frameX="-575" frameY="-169" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0019" x="1779" y="2115" width="191" height="82" frameX="-575" frameY="-169" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0020" x="1779" y="2202" width="196" height="79" frameX="-536" frameY="-155" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0021" x="1779" y="2202" width="196" height="79" frameX="-536" frameY="-155" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0022" x="2807" y="3012" width="199" height="82" frameX="-521" frameY="-156" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0023" x="2807" y="3012" width="199" height="82" frameX="-521" frameY="-156" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0024" x="2156" y="2102" width="245" height="147" frameX="-468" frameY="-180" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0025" x="2156" y="2102" width="245" height="147" frameX="-468" frameY="-180" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0026" x="2156" y="1732" width="384" height="365" frameX="-314" frameY="-174" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0027" x="2156" y="1732" width="384" height="365" frameX="-314" frameY="-174" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0028" x="1779" y="1732" width="372" height="378" frameX="-206" frameY="-231" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0029" x="1779" y="1732" width="372" height="378" frameX="-206" frameY="-231" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0030" x="2467" y="2102" width="364" height="306" frameX="-172" frameY="-329" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0031" x="2467" y="2102" width="364" height="306" frameX="-172" frameY="-329" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0032" x="2807" y="2718" width="317" height="289" frameX="-144" frameY="-359" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0033" x="2807" y="2718" width="317" height="289" frameX="-144" frameY="-359" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0034" x="2467" y="2718" width="335" height="300" frameX="-49" frameY="-346" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0035" x="2467" y="2718" width="335" height="300" frameX="-49" frameY="-346" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0036" x="2467" y="2413" width="336" height="300" frameX="-0" frameY="-347" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0037" x="2467" y="2413" width="336" height="300" frameX="-0" frameY="-347" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0038" x="2795" y="3023" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket flying0039" x="2795" y="3023" width="1" height="1" frameX="-0" frameY="-0" frameWidth="1257" frameHeight="649"/>
+	<SubTexture name="Ticket infront of logo0000" x="1779" y="1187" width="761" height="540" frameX="-0" frameY="-0" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0001" x="1779" y="1187" width="761" height="540" frameX="-0" frameY="-0" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0002" x="1555" y="2335" width="907" height="712" frameX="-119" frameY="-183" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0003" x="1697" y="0" width="1356" height="1182" frameX="-67" frameY="-132" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0004" x="1697" y="0" width="1356" height="1182" frameX="-67" frameY="-132" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0005" x="0" y="2335" width="1550" height="819" frameX="-421" frameY="-520" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0006" x="0" y="2335" width="1550" height="819" frameX="-421" frameY="-520" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0007" x="0" y="1214" width="1774" height="1116" frameX="-807" frameY="-427" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0008" x="0" y="1214" width="1774" height="1116" frameX="-807" frameY="-427" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0009" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0010" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0011" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0012" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0013" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0014" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0015" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0016" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0017" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0018" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0019" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0020" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0021" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0022" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0023" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0024" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0025" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0026" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0027" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0028" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+	<SubTexture name="Ticket infront of logo0029" x="0" y="0" width="1692" height="1209" frameX="-727" frameY="-316" frameWidth="2581" frameHeight="1543"/>
+</TextureAtlas>

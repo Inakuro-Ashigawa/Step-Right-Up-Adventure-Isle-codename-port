@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="booth.png">
+<SubTexture name="idle0000" x="0" y="0" width="1145" height="1371" frameX="-670" frameY="-17" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="idle0001" x="0" y="0" width="1145" height="1371" frameX="-670" frameY="-17" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10000" x="1150" y="1371" width="1166" height="1292" frameX="-653" frameY="-96" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10001" x="1150" y="1371" width="1166" height="1292" frameX="-653" frameY="-96" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10002" x="0" y="1371" width="1150" height="1307" frameX="-662" frameY="-79" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10003" x="0" y="1371" width="1150" height="1307" frameX="-662" frameY="-79" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10004" x="2279" y="0" width="1154" height="1311" frameX="-662" frameY="-79" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump10005" x="2279" y="0" width="1154" height="1311" frameX="-662" frameY="-79" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20000" x="1145" y="0" width="1134" height="1332" frameX="-672" frameY="-59" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20001" x="1145" y="0" width="1134" height="1332" frameX="-672" frameY="-59" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20002" x="2313" y="2678" width="1180" height="1216" frameX="-647" frameY="-172" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20003" x="2313" y="2678" width="1180" height="1216" frameX="-647" frameY="-172" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20004" x="0" y="2678" width="1156" height="1250" frameX="-662" frameY="-135" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20005" x="0" y="2678" width="1156" height="1250" frameX="-662" frameY="-135" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20006" x="1156" y="2678" width="1157" height="1250" frameX="-667" frameY="-135" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump20007" x="1156" y="2678" width="1157" height="1250" frameX="-667" frameY="-135" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30000" x="3433" y="0" width="1129" height="1262" frameX="-674" frameY="-124" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30001" x="3433" y="0" width="1129" height="1262" frameX="-674" frameY="-124" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30002" x="1104" y="3928" width="1140" height="976" frameX="-652" frameY="-466" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30003" x="1104" y="3928" width="1140" height="976" frameX="-652" frameY="-466" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30004" x="0" y="3928" width="1104" height="1021" frameX="-671" frameY="-420" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30005" x="0" y="3928" width="1104" height="1021" frameX="-671" frameY="-420" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30006" x="2316" y="1371" width="1098" height="1036" frameX="-682" frameY="-403" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30007" x="2316" y="1371" width="1098" height="1036" frameX="-682" frameY="-403" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30008" x="4562" y="0" width="1103" height="1036" frameX="-686" frameY="-403" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thump30009" x="4562" y="0" width="1103" height="1036" frameX="-686" frameY="-403" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thumpkill0000" x="3433" y="1262" width="1089" height="1068" frameX="-688" frameY="-373" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thumpkill0001" x="3433" y="1262" width="1089" height="1068" frameX="-688" frameY="-373" frameWidth="2415" frameHeight="1776" />
+<SubTexture name="thumpkill0002" x="2244" y="3928" width="1210" height="797" frameX="-608" frameY="-952" frameWidth="2415" frameHeight="1776" />
+</TextureAtlas>

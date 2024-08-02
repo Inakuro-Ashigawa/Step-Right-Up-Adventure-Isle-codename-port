@@ -30,11 +30,10 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-window.fullscreen = true;
+//window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
-
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
 function addBehindDad(thing){
@@ -47,6 +46,7 @@ function addBehindbf(thing){
 function create(){
 	window.title = "SRUAI - MINDS EYE SQUARED";
 	camGame.alpha = 0.001;
+
 
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
     intro1.scale.set(0, 0);
@@ -138,7 +138,7 @@ function onSongStart(){
 function wallpaper(){
 	canPause = window.fullscreen = false;
 	setWallpaper(realPath);
-	FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
+	//FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
 	camGame.alpha = window.opacity = 0;
 }
 function move(){
@@ -161,6 +161,15 @@ function update(elapsed){
 	iconP1.alpha = iconP2.alpha = 0.001;
 	DEATHTOALL.x = dad.x;
 	DEATHTOALL.y = dad.y - 100;
+
+	if (FlxG.mouse.overlaps(exit,camHUD) && FlxG.mouse.justPressed){
+		trace('exit');	
+		Sys.exit(0);
+	}
+	if (FlxG.mouse.overlaps(screen) && FlxG.mouse.justPressed){
+		trace('fullScreen');	
+	}
+
 }
 function windowmoves(){	
 	cutscene = true;
@@ -186,7 +195,6 @@ function postUpdate(){
 	if (cutscene){
 		healthBar.alpha = iconP1.alpha = iconP2.alpha = healthBarBG.alpha = 0;
     }
-	clicks();
 }
 function crash(){
 	tweenWindow1X.active = tweenWindow1Y.active = true;	
@@ -243,16 +251,4 @@ function endReal(){
 }
 function onSongEnd(){
 	window.opacity = 1;
-}
-function clicks(){
-	if (FlxG.mouse.justPressed) {
-		trace('clicked');
-	}
-	if (FlxG.mouse.overlaps(exit) && FlxG.mouse.justPressed){
-		trace('exit');	
-		Sys.exit(0);
-	}
-	if (FlxG.mouse.overlaps(screen) && FlxG.mouse.justPressed){
-		trace('fullScreen');	
-	}
 }

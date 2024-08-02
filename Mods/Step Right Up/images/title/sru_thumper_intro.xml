@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="thumper_complete.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="thump intro breakdown0000" x="10" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0001" x="10" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0002" x="1344" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0003" x="1344" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0004" x="2678" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0005" x="2678" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0006" x="4012" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0007" x="4012" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0008" x="5346" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0009" x="5346" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0010" x="6680" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0011" x="6680" y="10" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0012" x="10" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0013" x="10" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0014" x="1344" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0015" x="1344" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0016" x="2678" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0017" x="2678" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0018" x="4012" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0019" x="4012" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0020" x="5346" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0021" x="5346" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0022" x="6680" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0023" x="6680" y="993" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0024" x="10" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0025" x="10" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0026" x="1344" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0027" x="1344" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0028" x="2678" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0029" x="4012" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro breakdown0030" x="4012" y="1976" width="1324" height="973"/>
+	<SubTexture name="thump intro empty0000" x="5346" y="1976" width="1222" height="751"/>
+	<SubTexture name="thump intro entery0000" x="6578" y="1976" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0001" x="6578" y="1976" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0002" x="10" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0003" x="10" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0004" x="1244" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0005" x="1244" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0006" x="1244" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0007" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0008" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0009" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0010" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0011" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0012" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0013" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0014" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0015" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro entery0016" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro gimme0000" x="3712" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0001" x="3712" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0002" x="3712" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0003" x="4944" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0004" x="4944" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0005" x="4944" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0006" x="6176" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0007" x="6176" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0008" x="6176" y="2959" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0009" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0010" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0011" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0012" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0013" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0014" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0015" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0016" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0017" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0018" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0019" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0020" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0021" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0022" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0023" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0024" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0025" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0026" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0027" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0028" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0029" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0030" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0031" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0032" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0033" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0034" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0035" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0036" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0037" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro gimme0038" x="10" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro hand idle0000" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0001" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0002" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0003" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0004" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0005" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0006" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0007" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0008" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0009" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0010" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro hand idle0011" x="1242" y="3721" width="1223" height="752"/>
+	<SubTexture name="thump intro idle0000" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0001" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0002" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0003" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0004" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0005" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0006" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0007" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0008" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0009" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0010" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0011" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro idle0012" x="2478" y="2959" width="1224" height="751"/>
+	<SubTexture name="thump intro leave0000" x="2475" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0001" x="2475" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0002" x="2475" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0003" x="3707" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0004" x="3707" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0005" x="3707" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0006" x="4939" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0007" x="4939" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0008" x="4939" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0009" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0010" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0011" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0012" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0013" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0014" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0015" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0016" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0017" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0018" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0019" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0020" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0021" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0022" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0023" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0024" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro leave0025" x="6171" y="3721" width="1222" height="752"/>
+	<SubTexture name="thump intro ticket0000" x="10" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0001" x="10" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0002" x="10" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0003" x="10" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0004" x="1244" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0005" x="1244" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0006" x="2478" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0007" x="2478" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0008" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0009" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0010" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0011" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0012" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0013" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0014" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0015" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0016" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0017" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0018" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0019" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0020" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0021" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0022" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0023" x="4946" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0024" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0025" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0026" x="3712" y="4483" width="1224" height="752"/>
+	<SubTexture name="thump intro ticket0027" x="3712" y="4483" width="1224" height="752"/>
+</TextureAtlas>

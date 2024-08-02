@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="thumper_hand.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="handenter0000" x="100" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0001" x="100" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0002" x="100" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0003" x="532" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0004" x="532" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0005" x="532" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0006" x="964" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0007" x="964" y="100" width="332" height="252"/>
+	<SubTexture name="handenter0008" x="964" y="100" width="332" height="252"/>
+	<SubTexture name="handgesture0000" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0001" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0002" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0003" x="100" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0004" x="100" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0005" x="100" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0006" x="532" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0007" x="532" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0008" x="532" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0009" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0010" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0011" x="1396" y="100" width="332" height="235"/>
+	<SubTexture name="handgesture0012" x="964" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0013" x="964" y="452" width="332" height="235"/>
+	<SubTexture name="handgesture0014" x="964" y="452" width="332" height="235"/>
+	<SubTexture name="handstartgrab0000" x="1396" y="452" width="348" height="236"/>
+	<SubTexture name="handstartgrab0001" x="1396" y="452" width="348" height="236"/>
+	<SubTexture name="handstartgrab0002" x="100" y="788" width="348" height="236"/>
+	<SubTexture name="handstartgrab0003" x="100" y="788" width="348" height="236"/>
+	<SubTexture name="handstartgrab0004" x="100" y="788" width="348" height="236"/>
+	<SubTexture name="handstartgrab0005" x="100" y="788" width="348" height="236"/>
+	<SubTexture name="handstartgrab0006" x="100" y="788" width="348" height="236"/>
+	<SubTexture name="handstill0000" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0001" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0002" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0003" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0004" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0005" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0006" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0007" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0008" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0009" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0010" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0011" x="548" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0012" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0013" x="980" y="788" width="332" height="235"/>
+	<SubTexture name="handstill0014" x="980" y="788" width="332" height="235"/>
+</TextureAtlas>

@@ -5,26 +5,7 @@ import funkin.editors.EditorPicker;
 import funkin.backend.utils.DiscordUtil;
 import funkin.backend.MusicBeatState;
 
-import flixel.FlxG;
-import flixel.FlxObject;
-import haxe.Json;
-import lime.utils.Assets;
-import flixel.FlxSprite;
-import openfl.text.TextFormat;
-import flixel.text.FlxTextBorderStyle;
-import flixel.addons.display.FlxBackdrop;
-import flixel.group.FlxGroup;
-import flixel.effects.FlxFlicker;
-import flixel.text.FlxText;
-import flixel.tweens.FlxEase;
-import flixel.tweens.FlxTween;
-import flixel.util.FlxColor;
-import flixel.util.FlxTimer;
-import lime.app.Application;
-import flixel.group.FlxGroup.FlxTypedGroup;
 var optionsHitbox,freeplayHitbox,galleryHitbox,creditsHitbox,spinHitbox:FlxSprite;
-
-//vars
 var curSelected:Int = 0;
 
 function create(){
@@ -43,11 +24,11 @@ function create(){
 
     arc = new FlxSprite().loadGraphic(Paths.image('mainMenu/arc'));
     arc.screenCenter();
-    arc.scale.set(.4,.4);
+    arc.scale.set(.5,.5);
     add(arc);
     
-    wheel = new FlxSprite(-250,-300).loadGraphic(Paths.image('mainMenu/wheel'));
-    wheel.scale.set(.4,.4);
+    wheel = new FlxSprite(-260,-230).loadGraphic(Paths.image('mainMenu/wheel'));
+    wheel.scale.set(.5,.5);
     add(wheel);
 
     podium = new FlxSprite().loadGraphic(Paths.image('mainMenu/podium'));
@@ -92,8 +73,7 @@ function create(){
     add(glow);
     glow.alpha = 1;
 
-
-    optionsHitbox.visible =  freeplayHitbox.visible = galleryHitbox.visible = creditsHitbox.visible = spinHitbox.visible = false;
+    optionsHitbox.visible = freeplayHitbox.visible = galleryHitbox.visible = creditsHitbox.visible = spinHitbox.visible = false;
 }
 function update(elapsed){
     shits();
@@ -114,5 +94,8 @@ function shits(){
         openSubState(new ModSwitchMenu());
         persistentUpdate = false;
         persistentDraw = true;
+    }
+    if (controls.BACK){
+        FlxG.switchState(new TitleState());
     }
 }
