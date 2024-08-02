@@ -66,7 +66,6 @@ function create(){
     lyrics = new FlxText(310,760);
     lyrics.setFormat(Paths.font("felix.otf"), 48, FlxColor.YELLOW ,FlxTextBorderStyle.OUTLINE, FlxColor.BLACK , "center");
     lyrics.borderSize = 3;
-    lyrics.text = 'PRESS ENTER TO START';
     add(lyrics);
 
     words = new FlxText(310,760);
@@ -82,9 +81,6 @@ function create(){
     moveable = true;
 
     
-}
-function words(words){
-    lyrics.text = words;
 }
 function beatHit(){
     if (title)
