@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="uboa.png" width="2557" height="174">
+	<SubTexture name="down0000" x="403" y="0" width="173" height="156" frameX="-6" frameY="-5" frameWidth="183" frameHeight="165"/>
+	<SubTexture name="down0001" x="225" y="0" width="173" height="155" frameX="-5" frameY="-3" frameWidth="183" frameHeight="165"/>
+	<SubTexture name="gone0000" x="980" y="0" width="161" height="162" frameX="-7" frameY="-6" frameWidth="175" frameHeight="179"/>
+	<SubTexture name="gone0001" x="1146" y="0" width="161" height="162" frameX="-7" frameY="-6" frameWidth="175" frameHeight="179"/>
+	<SubTexture name="gone0002" x="1841" y="0" width="163" height="164" frameX="-8" frameY="-11" frameWidth="175" frameHeight="179"/>
+	<SubTexture name="idle0000" x="1312" y="0" width="161" height="162" frameX="-12" frameY="-9" frameWidth="187" frameHeight="182"/>
+	<SubTexture name="idle0001" x="801" y="0" width="174" height="161" frameX="-9" frameY="-8" frameWidth="187" frameHeight="182"/>
+	<SubTexture name="idle0002" x="1478" y="0" width="183" height="162" frameX="-0" frameY="-9" frameWidth="187" frameHeight="182"/>
+	<SubTexture name="left0000" x="2009" y="0" width="187" height="170" frameX="-0" frameY="-14" frameWidth="193" frameHeight="192"/>
+	<SubTexture name="left0001" x="2381" y="0" width="176" height="174" frameX="-0" frameY="-14" frameWidth="193" frameHeight="192"/>
+	<SubTexture name="right0000" x="0" y="0" width="220" height="152" frameX="-11" frameY="-13" frameWidth="236" frameHeight="170"/>
+	<SubTexture name="right0001" x="581" y="0" width="215" height="156" frameX="-11" frameY="-10" frameWidth="236" frameHeight="170"/>
+	<SubTexture name="up0000" x="2201" y="0" width="175" height="172" frameX="-8" frameY="-5" frameWidth="187" frameHeight="181"/>
+	<SubTexture name="up0001" x="1666" y="0" width="170" height="162" frameX="-8" frameY="-15" frameWidth="187" frameHeight="181"/>
+</TextureAtlas>

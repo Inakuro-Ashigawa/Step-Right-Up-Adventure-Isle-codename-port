@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="mado-end.png" width="5357" height="4915">
+	<SubTexture name="Mado Face back instance 10000" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10001" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10002" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10003" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10004" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10005" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10006" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10007" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10008" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10009" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10010" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10011" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10012" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10013" x="3139" y="0" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10014" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10015" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10016" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10017" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Face back instance 10018" x="1612" y="2845" width="551" height="672" frameX="-0" frameY="-1" frameWidth="551" frameHeight="674"/>
+	<SubTexture name="Mado Turn instance 10000" x="3138" y="1392" width="552" height="672" frameX="-76" frameY="-1" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10001" x="3138" y="1392" width="552" height="672" frameX="-76" frameY="-1" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10002" x="3138" y="2069" width="552" height="670" frameX="-73" frameY="-3" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10003" x="3138" y="2069" width="552" height="670" frameX="-73" frameY="-3" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10004" x="4212" y="2010" width="535" height="661" frameX="-86" frameY="-15" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10005" x="4212" y="2010" width="535" height="661" frameX="-86" frameY="-15" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10006" x="4212" y="2010" width="535" height="661" frameX="-86" frameY="-15" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10007" x="4176" y="2676" width="531" height="658" frameX="-98" frameY="-19" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10008" x="4176" y="2676" width="531" height="658" frameX="-98" frameY="-19" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10009" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10010" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10011" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10012" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10013" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10014" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10015" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10016" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10017" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10018" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10019" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10020" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10021" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10022" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10023" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10024" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10025" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10026" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10027" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10028" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10029" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10030" x="1128" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10031" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10032" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10033" x="590" y="4258" width="533" height="656" frameX="-100" frameY="-21" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10034" x="4176" y="3339" width="545" height="658" frameX="-92" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10035" x="4176" y="3339" width="545" height="658" frameX="-92" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10036" x="4176" y="4002" width="545" height="658" frameX="-92" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10037" x="4178" y="674" width="553" height="663" frameX="-88" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10038" x="4178" y="674" width="553" height="663" frameX="-88" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10039" x="4178" y="674" width="553" height="663" frameX="-88" frameY="-23" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10040" x="1666" y="4206" width="572" height="656" frameX="-32" frameY="-37" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10041" x="1666" y="4206" width="572" height="656" frameX="-32" frameY="-37" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10042" x="2243" y="4196" width="572" height="656" frameX="-32" frameY="-37" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10043" x="0" y="4258" width="585" height="657" frameX="-12" frameY="-31" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10044" x="0" y="4258" width="585" height="657" frameX="-12" frameY="-31" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10045" x="0" y="4258" width="585" height="657" frameX="-12" frameY="-31" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10046" x="0" y="4258" width="585" height="657" frameX="-12" frameY="-31" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10047" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10048" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10049" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10050" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10051" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10052" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10053" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10054" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10055" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10056" x="4726" y="3995" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10057" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10058" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado Turn instance 10059" x="4726" y="3337" width="593" height="653" frameX="-0" frameY="-33" frameWidth="642" frameHeight="693"/>
+	<SubTexture name="Mado pinch instance 10000" x="2104" y="3522" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10001" x="3695" y="0" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10002" x="3695" y="0" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10003" x="3695" y="0" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10004" x="3695" y="0" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10005" x="3695" y="0" width="520" height="669" frameX="-1" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10006" x="3652" y="677" width="521" height="669" frameX="-0" frameY="-0" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10007" x="3650" y="2744" width="521" height="667" frameX="-0" frameY="-2" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10008" x="3650" y="3416" width="521" height="667" frameX="-0" frameY="-2" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10009" x="3650" y="3416" width="521" height="667" frameX="-0" frameY="-2" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10010" x="3695" y="1351" width="512" height="667" frameX="-6" frameY="-2" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10011" x="3695" y="1351" width="512" height="667" frameX="-6" frameY="-2" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10012" x="0" y="0" width="512" height="798" frameX="-6" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10013" x="0" y="0" width="512" height="798" frameX="-6" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10014" x="517" y="0" width="513" height="741" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10015" x="517" y="746" width="513" height="741" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10016" x="517" y="746" width="513" height="741" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10017" x="517" y="746" width="513" height="741" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10018" x="1035" y="0" width="516" height="720" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10019" x="1035" y="0" width="516" height="720" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10020" x="1035" y="0" width="516" height="720" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10021" x="1035" y="0" width="516" height="720" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10022" x="1035" y="725" width="513" height="719" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10023" x="1035" y="725" width="513" height="719" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10024" x="1035" y="725" width="513" height="719" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10025" x="0" y="1492" width="519" height="696" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10026" x="0" y="1492" width="519" height="696" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10027" x="0" y="1492" width="519" height="696" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10028" x="524" y="1492" width="519" height="696" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10029" x="1556" y="0" width="519" height="696" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10030" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10031" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10032" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10033" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10034" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10035" x="1556" y="701" width="519" height="694" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10036" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10037" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10038" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10039" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10040" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10041" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10042" x="524" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10043" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10044" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10045" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10046" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10047" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10048" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10049" x="1048" y="2149" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10050" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10051" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10052" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10053" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10054" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10055" x="0" y="2193" width="519" height="691" frameX="-4" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10056" x="1572" y="2149" width="515" height="691" frameX="-8" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10057" x="2092" y="2097" width="515" height="691" frameX="-8" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10058" x="2092" y="2097" width="515" height="691" frameX="-8" frameY="-6" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10059" x="2612" y="2095" width="521" height="689" frameX="-1" frameY="-12" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10060" x="2612" y="2095" width="521" height="689" frameX="-1" frameY="-12" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10061" x="2612" y="2095" width="521" height="689" frameX="-1" frameY="-12" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10062" x="2612" y="2789" width="516" height="685" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10063" x="2614" y="0" width="520" height="691" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10064" x="2614" y="0" width="520" height="691" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10065" x="2614" y="696" width="520" height="691" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10066" x="1582" y="1400" width="522" height="692" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10067" x="1582" y="1400" width="522" height="692" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10068" x="1582" y="1400" width="522" height="692" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10069" x="1582" y="1400" width="522" height="692" frameX="-6" frameY="-16" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10070" x="1048" y="1449" width="529" height="695" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10071" x="2080" y="0" width="529" height="695" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10072" x="2080" y="700" width="529" height="695" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10073" x="2080" y="700" width="529" height="695" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10074" x="2080" y="700" width="529" height="695" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10075" x="2109" y="1400" width="531" height="690" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10076" x="2109" y="1400" width="531" height="690" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10077" x="2109" y="1400" width="531" height="690" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10078" x="2109" y="1400" width="531" height="690" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10079" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10080" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10081" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10082" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10083" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10084" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10085" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10086" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10087" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10088" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10089" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10090" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10091" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10092" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10093" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10094" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10095" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10096" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10097" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10098" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10099" x="0" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10100" x="538" y="2889" width="533" height="689" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10101" x="1076" y="2845" width="531" height="681" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10102" x="1076" y="2845" width="531" height="681" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10103" x="1076" y="2845" width="531" height="681" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10104" x="4220" y="0" width="537" height="666" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10105" x="4220" y="0" width="537" height="666" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10106" x="4220" y="0" width="537" height="666" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10107" x="4212" y="1342" width="536" height="663" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10108" x="4212" y="1342" width="536" height="663" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10109" x="4212" y="1342" width="536" height="663" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10110" x="4212" y="1342" width="536" height="663" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10111" x="2820" y="4094" width="566" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10112" x="2820" y="4094" width="566" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10113" x="2820" y="4094" width="566" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10114" x="3391" y="4094" width="592" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10115" x="3391" y="4094" width="592" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10116" x="3391" y="4094" width="592" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10117" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10118" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10119" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10120" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10121" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10122" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10123" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10124" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10125" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10126" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10127" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10128" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10129" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10130" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10131" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10132" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10133" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10134" x="4762" y="0" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10135" x="4762" y="661" width="595" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10136" x="4712" y="2676" width="593" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10137" x="4712" y="2676" width="593" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10138" x="4712" y="2676" width="593" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10139" x="4712" y="2676" width="593" height="656" frameX="-6" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10140" x="4752" y="2010" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10141" x="4752" y="2010" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10142" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10143" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10144" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10145" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10146" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10147" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10148" x="4753" y="1322" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado pinch instance 10149" x="4752" y="2010" width="593" height="656" frameX="-8" frameY="-14" frameWidth="601" frameHeight="804"/>
+	<SubTexture name="Mado wake up instance 10000" x="0" y="803" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10001" x="3138" y="2744" width="507" height="670" frameX="-5" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10002" x="3138" y="2744" width="507" height="670" frameX="-5" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10003" x="3138" y="2744" width="507" height="670" frameX="-5" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10004" x="3133" y="3419" width="508" height="670" frameX="-4" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10005" x="3133" y="3419" width="508" height="670" frameX="-4" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10006" x="3133" y="3419" width="508" height="670" frameX="-4" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10007" x="3133" y="3419" width="508" height="670" frameX="-4" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10008" x="3133" y="3419" width="508" height="670" frameX="-4" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10009" x="3139" y="677" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10010" x="3139" y="677" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10011" x="0" y="803" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10012" x="0" y="803" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10013" x="0" y="803" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10014" x="0" y="803" width="508" height="671" frameX="-4" frameY="-0" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10015" x="3138" y="2744" width="507" height="670" frameX="-5" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10016" x="0" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10017" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10018" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10019" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10020" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10021" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10022" x="1052" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10023" x="1052" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10024" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10025" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10026" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10027" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10028" x="0" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10029" x="0" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10030" x="0" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10031" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10032" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10033" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10034" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10035" x="526" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10036" x="1052" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10037" x="1052" y="3583" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10038" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+	<SubTexture name="Mado wake up instance 10039" x="1578" y="3531" width="521" height="670" frameX="-0" frameY="-1" frameWidth="521" frameHeight="671"/>
+</TextureAtlas>

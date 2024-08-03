@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="poniko.png">
+<SubTexture name="loop0000" x="0" y="0" width="698" height="287" frameX="0" frameY="0" frameWidth="694" frameHeight="283" />
+<SubTexture name="loop0001" x="0" y="0" width="698" height="287" frameX="0" frameY="0" frameWidth="694" frameHeight="283" />
+<SubTexture name="loop0002" x="0" y="287" width="698" height="287" frameX="0" frameY="0" frameWidth="694" frameHeight="283" />
+<SubTexture name="loop0003" x="0" y="287" width="698" height="287" frameX="0" frameY="0" frameWidth="694" frameHeight="283" />
+</TextureAtlas>

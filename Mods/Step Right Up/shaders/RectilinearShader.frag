@@ -11,8 +11,8 @@ uniform float iTime;
 //****MAKE SURE TO remove the parameters from mainImage
 
 //so sorry for the names lolol
-float str = 1.5;
-float ok = 1.5;
+uniform float str;
+uniform float ok;
 
 vec2 warp(vec2 inp)
 {

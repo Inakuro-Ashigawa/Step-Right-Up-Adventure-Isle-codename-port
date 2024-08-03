@@ -197,7 +197,7 @@ Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
 	<SubTexture name="purple0007" x="318" y="905" width="154" height="148" frameX="-0" frameY="-0" frameWidth="154" frameHeight="148"/>
 	<SubTexture name="purple0008" x="318" y="905" width="154" height="148" frameX="-0" frameY="-0" frameWidth="154" frameHeight="148"/>
 	<SubTexture name="purple0009" x="318" y="905" width="154" height="148" frameX="-0" frameY="-0" frameWidth="154" frameHeight="148"/>
-	<SubTexture name="left hold end0000" x="954" y="791" width="51" height="65" frameX="-0" frameY="-0" frameWidth="51" frameHeight="65"/>
+	<SubTexture name="purple hold end0000" x="954" y="791" width="51" height="65" frameX="-0" frameY="-0" frameWidth="51" frameHeight="65"/>
 	<SubTexture name="purple hold piece0000" x="1010" y="791" width="51" height="44" frameX="-0" frameY="-0" frameWidth="51" frameHeight="44"/>
 	<SubTexture name="red0000" x="477" y="905" width="154" height="148" frameX="-0" frameY="-0" frameWidth="154" frameHeight="148"/>
 	<SubTexture name="red0001" x="477" y="905" width="154" height="148" frameX="-0" frameY="-0" frameWidth="154" frameHeight="148"/>

@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/trinity/" zoom="4.5">
 	<combo/>
-	<sprite x="534" sprite="2v2" y="0" alpha="0" scale="1.2" name="tweo"/>
-	<sprite x="534" sprite="michael/Michael BG" y="-18" alpha="0" name="michaelBG"/>
-	<sprite antialiasing="false" x="525" y="-95" sprite="bg2" alpha="0" name="bg2"/>
-	<sprite antialiasing="false" x="636" y="3" sprite="bg1" name="bg1"/>
-	<sprite x="683" y="58" sprite="john/alone_actual" scale="2" alpha="0" name="alone_actual"/>
-	<sprite x="669" y="12" sprite="amy/entrance" alpha="0" name="entrance"/>
+	<sprite x="534" antialiasing="false" y="0" sprite="2v2" scale="1.2" alpha="0" name="tweo"/>
+	<sprite x="534" antialiasing="false" y="-18" sprite="michael/Michael BG" alpha="0" name="michaelBG"/>
+	<sprite x="525" antialiasing="false" sprite="bg2" y="-95" alpha="0" name="bg2"/>
+	<sprite x="636" antialiasing="false" sprite="bg1" y="3" name="bg1"/>
+	<sprite x="683" antialiasing="false" sprite="john/alone_actual" y="58" alpha="0" scale="2" name="alone_actual"/>
+	<sprite antialiasing="false" x="669" y="12" sprite="amy/entrance" alpha="0" name="entrance"/>
 	<dad x="805.5" y="-42"/>
 	<gf x="500" y="10"/>
 	<bf x="744.5" y="66.5"/>

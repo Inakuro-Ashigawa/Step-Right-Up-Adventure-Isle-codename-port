@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="monoe.png" width="420" height="16">
+	<SubTexture name="down0000" x="0" y="0" width="24" height="14" rotated="true" frameX="-9" frameY="-7" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="down0001" x="29" y="0" width="26" height="14" rotated="true" frameX="-9" frameY="-5" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="down0002" x="60" y="0" width="27" height="14" rotated="true" frameX="-9" frameY="-4" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="down0003" x="294" y="0" width="28" height="16" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="idle0000" x="294" y="0" width="28" height="16" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="left0000" x="327" y="0" width="29" height="16" rotated="true" frameX="-6" frameY="-3" frameWidth="32" frameHeight="34"/>
+	<SubTexture name="left0001" x="194" y="0" width="29" height="15" rotated="true" frameX="-7" frameY="-3" frameWidth="32" frameHeight="34"/>
+	<SubTexture name="left0002" x="228" y="0" width="29" height="15" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="34"/>
+	<SubTexture name="left0003" x="294" y="0" width="28" height="16" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="34"/>
+	<SubTexture name="right0000" x="361" y="0" width="27" height="16" rotated="true" frameX="-10" frameY="-4" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="right0001" x="262" y="0" width="27" height="15" rotated="true" frameX="-9" frameY="-4" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="right0002" x="393" y="0" width="27" height="16" rotated="true" frameX="-8" frameY="-4" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="right0003" x="294" y="0" width="28" height="16" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="up0000" x="92" y="0" width="30" height="14" rotated="true" frameX="-9" frameY="-1" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="up0001" x="127" y="0" width="29" height="14" rotated="true" frameX="-9" frameY="-2" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="up0002" x="161" y="0" width="28" height="14" rotated="true" frameX="-9" frameY="-3" frameWidth="32" frameHeight="33"/>
+	<SubTexture name="up0003" x="294" y="0" width="28" height="16" rotated="true" frameX="-8" frameY="-3" frameWidth="32" frameHeight="33"/>
+</TextureAtlas>

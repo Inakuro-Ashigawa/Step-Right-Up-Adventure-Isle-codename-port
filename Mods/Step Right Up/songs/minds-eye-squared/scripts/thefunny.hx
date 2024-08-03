@@ -9,7 +9,7 @@ var winX:Int = 325;
 var winY:Int = 185;
 var prevWallpaper = [];
 var cutscene:Bool = false;
-var intro1,error,exit:FlxSprite;
+var intro1,error,exit,blackBarThingie2:FlxSprite;
 var timerTween:NumTween;
 var fuckers:FlxBackdrop;
 var fuckers2:FlxBackdrop;
@@ -34,6 +34,7 @@ window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
+
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
 function addBehindDad(thing){
@@ -114,19 +115,14 @@ function create(){
     tweenWindow1X = FlxTween.tween(window, {x: changex + changex / 2}, 4, {ease: FlxEase.quadInOut, type: 4});
     tweenWindow1Y.active = tweenWindow1X.active = false;
 
-	exit = new FlxSprite(1210,530);
-    exit.makeGraphic(24, 24, 0xFFFF0000);
-    exit.scrollFactor;
-	exit.camera = camHUD;
-    add(exit);
-
-	screen = new FlxSprite(1180,560);
-    screen.makeGraphic(24, 24, 0xFFFF0000);
-    screen.scrollFactor;
-	screen.camera = camHUD;
-    add(screen);
-
-	screen.alpha = exit.alpha = 0;
+	blackBarThingie2 = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+    blackBarThingie2.setGraphicSize(Std.int(blackBarThingie2.width * 10));
+    blackBarThingie2.alpha = 0;
+    blackBarThingie2.cameras = [camHUD];
+    add(blackBarThingie2);
+}
+function fadeout2(){
+	FlxTween.tween(blackBarThingie2, {alpha: 1}, 1, {ease: FlxEase.circOut});
 }
 function destroy(){
     setWallpaper(prevWallpaper);
@@ -138,6 +134,8 @@ function onSongStart(){
 function wallpaper(){
 	canPause = window.fullscreen = false;
 	setWallpaper(realPath);
+	blackBarThingie2.alpha = 0;
+	dupe.mirrorS = false;
 	//FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
 	camGame.alpha = window.opacity = 0;
 }
@@ -154,22 +152,13 @@ function fullwin(){
 		window.borderless = false;
 	}});
 }
-function postCreate(){
+function postCreate()
 	healthBar.alpha = healthBarBG.alpha = 0;
-}
+
 function update(elapsed){
 	iconP1.alpha = iconP2.alpha = 0.001;
 	DEATHTOALL.x = dad.x;
 	DEATHTOALL.y = dad.y - 100;
-
-	if (FlxG.mouse.overlaps(exit,camHUD) && FlxG.mouse.justPressed){
-		trace('exit');	
-		Sys.exit(0);
-	}
-	if (FlxG.mouse.overlaps(screen) && FlxG.mouse.justPressed){
-		trace('fullScreen');	
-	}
-
 }
 function windowmoves(){	
 	cutscene = true;
@@ -241,14 +230,10 @@ function randomMove(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
 	window.x = FlxG.random.float(1, 900);
 	window.y = FlxG.random.float(1, 900);
-	trace(window.x);
-	trace(window.y);
 }
 function endReal(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
 	FlxTween.tween(window, {opacity: 0}, 3, {ease: FlxEase.expoOut});
 	setWallpaper(realPath3);
 }
-function onSongEnd(){
-	window.opacity = 1;
-}
+function onSongEnd() window.opacity = 1;

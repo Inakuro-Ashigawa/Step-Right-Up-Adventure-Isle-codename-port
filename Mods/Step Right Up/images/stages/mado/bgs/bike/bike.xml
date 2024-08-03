@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bike.png">
+<SubTexture name="loop0000" x="0" y="0" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0001" x="0" y="107" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0002" x="0" y="214" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0003" x="356" y="0" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0004" x="356" y="107" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0005" x="356" y="214" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0006" x="0" y="321" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+<SubTexture name="loop0007" x="356" y="321" width="356" height="107" frameX="0" frameY="0" frameWidth="352" frameHeight="103" />
+</TextureAtlas>

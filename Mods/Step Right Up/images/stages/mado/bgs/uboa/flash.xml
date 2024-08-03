@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="flash.png">
+<SubTexture name="loop0000" x="0" y="0" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+<SubTexture name="loop0001" x="932" y="0" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+<SubTexture name="loop0002" x="0" y="468" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+<SubTexture name="loop0003" x="932" y="468" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+<SubTexture name="loop0004" x="0" y="936" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+<SubTexture name="loop0005" x="932" y="936" width="932" height="468" frameX="0" frameY="0" frameWidth="928" frameHeight="464" />
+</TextureAtlas>

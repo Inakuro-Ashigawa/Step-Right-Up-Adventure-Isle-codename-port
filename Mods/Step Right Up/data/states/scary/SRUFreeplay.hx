@@ -31,29 +31,27 @@ function create() {
     logo = new FlxSprite(100, 600);
     char = new FlxSprite(0, 0);
     
-    if (preloadedLogos.length > 0 && preloadedAnims.length > 0) {
-        char.frames = preloadedAnims[curSelected];
-        char.screenCenter();
-        add(char);
+    char.frames = preloadedAnims[curSelected];
+    char.screenCenter();
+    add(char);
 
-        var curtain = new FlxSprite(-90, 0).loadGraphic(Paths.image('freeplay/curtain'));
-        add(curtain);
+    var curtain = new FlxSprite(-90, 0).loadGraphic(Paths.image('freeplay/curtain'));
+    add(curtain);
 
-        var bottom = new FlxSprite(-90, 600).loadGraphic(Paths.image('freeplay/bottom'));
-        bottom.scale.set(0.9, 0.9);
-        add(bottom);
+    var bottom = new FlxSprite(-90, 600).loadGraphic(Paths.image('freeplay/bottom'));
+    bottom.scale.set(0.9, 0.9);
+    add(bottom);
 
-        var wheel = new FlxSprite(440, 530).loadGraphic(Paths.image('freeplay/wheel'));
-        add(wheel);
+    var wheel = new FlxSprite(440, 530).loadGraphic(Paths.image('freeplay/wheel'));
+    add(wheel);
 
-        var arrow = new FlxSprite(630, 450).loadGraphic(Paths.image('freeplay/arrow'));
-        add(arrow);
+    var arrow = new FlxSprite(630, 450).loadGraphic(Paths.image('freeplay/arrow'));
+    add(arrow);
 
-        logo.loadGraphic(preloadedLogos[curSelected]);
-        add(logo);
+    logo.loadGraphic(preloadedLogos[curSelected]);
+    add(logo);
 
-        changeItem(0);
-    }
+    changeItem(0);
 }
 
 function update() {
@@ -88,7 +86,7 @@ function changeItem(huh: Int = 0) {
                 char.x = 350;
                 logo.x = 100;
                 logo.y = 600;
-                SongName = '';
+                SongName = 'deep-dream';
 
             case 1:
                 char.y = 70;
@@ -118,8 +116,6 @@ function changeItem(huh: Int = 0) {
                 logo.y = 600;
                 SongName = '';
         }
-    } else {
-        trace('Invalid selection index: ' + curSelected);
     }
 }
 function Play(songName: String) {

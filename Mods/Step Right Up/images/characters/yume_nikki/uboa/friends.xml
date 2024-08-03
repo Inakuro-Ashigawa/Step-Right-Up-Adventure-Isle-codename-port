@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="friends.png">
+<SubTexture name="idle0000" x="0" y="0" width="840" height="371" frameX="-41" frameY="-97" frameWidth="928" frameHeight="464" />
+<SubTexture name="miss0000" x="840" y="0" width="887" height="297" frameX="-19" frameY="-171" frameWidth="928" frameHeight="464" />
+</TextureAtlas>

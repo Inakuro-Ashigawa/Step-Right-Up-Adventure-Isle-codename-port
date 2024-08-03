@@ -2,6 +2,7 @@ import funkin.editors.ui.UISlider;
 import funkin.editors.ui.UIState;
 
 var Curtin:FlxSprite;
+var cameras:FlxCamera;
 
 function create() {
 
@@ -9,6 +10,7 @@ function create() {
 	remove(blackSpr);
     remove(transitionSprite);
     transitionCamera.scroll.y = 0;
+
 
     FlxG.cameras.add(cuming = new HudCamera(), false);
     cuming.bgColor = FlxColor.TRANSPARENT;
@@ -28,7 +30,5 @@ function create() {
         Curtin.animation.play('close');
     }
 
-	new FlxTimer().start(1, ()-> {
-        finish();
-    });
+	new FlxTimer().start(1, ()-> {finish();});
 }

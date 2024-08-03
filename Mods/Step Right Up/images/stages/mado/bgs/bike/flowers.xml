@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="flowers.png">
+<SubTexture name="loop0000" x="0" y="0" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0001" x="0" y="543" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0002" x="0" y="1086" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0003" x="0" y="1629" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0004" x="2337" y="0" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0005" x="2337" y="543" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0006" x="2337" y="1086" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+<SubTexture name="loop0007" x="2337" y="1629" width="2337" height="543" frameX="0" frameY="0" frameWidth="2333" frameHeight="539" />
+</TextureAtlas>

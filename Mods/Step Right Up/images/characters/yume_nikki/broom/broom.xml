@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="broom.png" width="706" height="37">
+	<SubTexture name="broom0000" x="356" y="0" width="113" height="36" frameX="-13" frameY="-10" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0001" x="356" y="0" width="113" height="36" frameX="-13" frameY="-10" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0002" x="474" y="0" width="114" height="36" frameX="-12" frameY="-6" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0003" x="474" y="0" width="114" height="36" frameX="-12" frameY="-6" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0004" x="593" y="0" width="113" height="37" frameX="-13" frameY="-7" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0005" x="593" y="0" width="113" height="37" frameX="-13" frameY="-7" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0006" x="119" y="0" width="114" height="34" frameX="-12" frameY="-10" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0007" x="119" y="0" width="114" height="34" frameX="-12" frameY="-10" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0008" x="238" y="0" width="113" height="34" frameX="-13" frameY="-9" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0009" x="238" y="0" width="113" height="34" frameX="-13" frameY="-9" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0010" x="0" y="0" width="114" height="33" frameX="-12" frameY="-9" frameWidth="142" frameHeight="48"/>
+	<SubTexture name="broom0011" x="0" y="0" width="114" height="33" frameX="-12" frameY="-9" frameWidth="142" frameHeight="48"/>
+</TextureAtlas>

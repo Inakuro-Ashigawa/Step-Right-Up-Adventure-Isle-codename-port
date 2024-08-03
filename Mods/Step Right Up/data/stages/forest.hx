@@ -1,6 +1,7 @@
 import hxvlc.openfl.Video;
 import hxvlc.flixel.FlxVideoSprite;
 var dad2;
+var fullTimer:Float = 0;
 var cutsceneCamera:FlxCamera;
 var cancelCameraMove:Bool = false;
 var blackBarThingie2,whiteThingie,healthBarCross:FlxSprite;
@@ -9,7 +10,7 @@ var boder2 = new FlxSprite(-1000,-40).loadGraphic(Paths.image('stages/trinity/mi
 var boderv1 = new FlxSprite(996,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var boderv2 = new FlxSprite(696,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var mortis:FlxVideoSprite;
-var pixelShader:CustomShader;
+var pixelShader = new CustomShader("pixel perfect");
 
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
@@ -19,6 +20,10 @@ function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
 function create(){
+    pixelShader.blockSize = 6; // (6 due to assets scale)
+    pixelShader.res = [FlxG.width, FlxG.height];
+    camGame.addShader(pixelShader); 
+
     PlayState.instance.comboGroup.alpha = 0;
 
     dad2 = strumLines.members[3].characters[0];
@@ -41,9 +46,6 @@ function onSubstateClose(event) if (mortis!= null && paused && mortis.alpha == 1
 function focusGained() if (mortis != null && !paused && mortis.alpha == 1) mortis.resume();
 
 function postCreate(){
-    //trasitions
-    //your not
-
     healthBarCross = new FlxSprite().loadGraphic(Paths.image("healthbars/trinity/bar-p1"));
 	healthBarCross.camera = camCinema;
     healthBarCross.scale.set(3,3);
@@ -51,6 +53,8 @@ function postCreate(){
 	healthBarCross.screenCenter(FlxAxes.Y);
 	add(healthBarCross);
 
+    //trasitions
+    //your not pretty
     pretty = new FlxSprite();
     pretty.frames = Paths.getSparrowAtlas('stages/trinity/transition/pretty');
     pretty.animation.addByPrefix('pretty', "idle", 12, false);
@@ -125,6 +129,10 @@ function postCreate(){
     whiteThingie.cameras = [camGame];
     add(whiteThingie);
 }
+function update(elapsed:Float){
+    pixelShader.blockSize = .3 * FlxG.camera.zoom;
+}
+
 function events(name){
     if (name == "pretty"){
         pretty.animation.play('pretty');
@@ -159,10 +167,10 @@ function events(name){
         michaelBG.alpha = 1;
     }
     if (name == "fade1"){
-        //FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
+        FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
     }
     if (name == "fade2"){
-        //FlxTween.tween(blackBarThingie2, {alpha: 0}, 2, {ease: FlxEase.circOut});
+        FlxTween.tween(blackBarThingie2, {alpha: 0}, 2, {ease: FlxEase.circOut});
         alone_actual.alpha = 1;
         michaelBG.alpha = dad.alpha = 0;
         boyfriend.cameraOffset.x = 50;

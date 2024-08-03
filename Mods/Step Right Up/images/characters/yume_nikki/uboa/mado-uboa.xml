@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mado-uboa.png">
+<SubTexture name="idle0000" x="698" y="732" width="713" height="707" frameX="-7" frameY="-32" frameWidth="727" frameHeight="735" />
+<SubTexture name="left0000" x="1408" y="0" width="711" height="726" frameX="-8" frameY="-13" frameWidth="727" frameHeight="735" />
+<SubTexture name="left0001" x="0" y="0" width="704" height="732" frameX="-24" frameY="-7" frameWidth="727" frameHeight="735" />
+<SubTexture name="missleft0000" x="704" y="0" width="704" height="732" frameX="-90" frameY="-44" frameWidth="874" frameHeight="772" />
+<SubTexture name="up0000" x="0" y="732" width="698" height="724" frameX="-12" frameY="-12" frameWidth="722" frameHeight="732" />
+<SubTexture name="up0001" x="1411" y="732" width="692" height="707" frameX="-18" frameY="-29" frameWidth="722" frameHeight="732" />
+<SubTexture name="missup0000" x="2119" y="0" width="731" height="707" frameX="-39" frameY="-33" frameWidth="766" frameHeight="736" />
+</TextureAtlas>
