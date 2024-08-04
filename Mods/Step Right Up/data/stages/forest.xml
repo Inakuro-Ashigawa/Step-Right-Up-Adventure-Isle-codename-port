@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/trinity/" zoom="4.5">
+<stage folder="stages/trinity/" zoom="4.5" startCamPosX="760" startCamPosY="80">
 	<combo/>
 	<sprite x="534" antialiasing="false" y="0" sprite="2v2" scale="1.2" alpha="0" name="tweo"/>
 	<sprite x="534" antialiasing="false" y="-18" sprite="michael/Michael BG" alpha="0" name="michaelBG"/>

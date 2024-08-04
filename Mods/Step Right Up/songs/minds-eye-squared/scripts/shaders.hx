@@ -39,7 +39,6 @@ function aberrationCoolThing() {
 function camDupesYAY(num){
 	dupe.data.multi.value[0] = num;
 	dupe.mirrorS = !dupe.mirrorS;
-    camGame.addShader(perspect);
 	camGame.addShader(fish);
 	camGame.addShader(Glict);
 }
@@ -50,7 +49,6 @@ function update(elapsed:Float){
 	if(camZooming && intens > (0.0005)) setGeneralIntensity(intens - (0.001));
 
     if (dupe.data.multi.value[0] == 1){
-        camGame.removeShader(perspect);
 		camGame.removeShader(fish);
     }
 }

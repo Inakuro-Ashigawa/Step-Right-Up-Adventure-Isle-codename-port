@@ -31,3 +31,10 @@ function onStrumCreation(event) {
 	strum.scale.set(noteSize, noteSize);
 	strum.updateHitbox();
 }
+function onGamePause(event) {
+    event.cancel();
+    persistentUpdate = false;
+    persistentDraw = paused = true;
+
+    openSubState(new ModSubState('Pause Menus/Faith'));
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/mado/" zoom="0.65">
+	<combo/>
+	<sprite antialiasing="false" x="-71.5" y="-1011" sprite="monokoBG" alpha="0" scale="6" name="monoko"/>
+	<sprite antialiasing="false" x="-4.5" y="-911" sprite="monokoBG_shadows" alpha="0" scale="5" name="monokoBG_shadows">
+		<property type="float" value="0" name="x"/>
+	</sprite>
+	<sprite antialiasing="false" x="-450" y="-485" sprite="bgs/desert" scale="5" name="desert">
+		<property type="float" value="0" name="alpha"/>
+	</sprite>
+	<sprite antialiasing="false" x="-450" y="-485" sprite="bgs/block" scale="5" name="block">
+		<property type="float" value="0" name="alpha"/>
+	</sprite>
+	<sprite antialiasing="false" x="-450" y="-485" sprite="bgs/forest" scale="5" name="forest">
+		<property type="float" value="0" name="alpha"/>
+	</sprite>
+	<sprite antialiasing="false" x="-124" y="-269" sprite="bgs/nexus" scale="5" name="nexus"/>
+	<gf/>
+	<dad/>
+	<bf x="-21" y="-655.5"/>
+</stage>
