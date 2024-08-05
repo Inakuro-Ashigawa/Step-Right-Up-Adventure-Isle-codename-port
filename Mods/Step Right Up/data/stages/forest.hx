@@ -1,6 +1,10 @@
+import flixel.ui.FlxBar;
 import hxvlc.openfl.Video;
 import hxvlc.flixel.FlxVideoSprite;
+import flixel.ui.FlxBar.FlxBarFillDirection;
 var dad2;
+var healthBar3;
+var healthBar2;
 var fullTimer:Float = 0;
 var cutsceneCamera:FlxCamera;
 var cancelCameraMove:Bool = false;
@@ -10,7 +14,8 @@ var boder2 = new FlxSprite(-1000,-40).loadGraphic(Paths.image('stages/trinity/mi
 var boderv1 = new FlxSprite(996,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var boderv2 = new FlxSprite(696,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var mortis:FlxVideoSprite;
-var pixelShader = new CustomShader("pixel perfect");
+var pixelShader = new CustomShader("RectilinearShader");
+var pixelShader2 = new CustomShader("pixel perfect");
 
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
@@ -20,10 +25,15 @@ function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
 function create(){
-    pixelShader.blockSize = 6; // (6 due to assets scale)
-    pixelShader.res = [FlxG.width, FlxG.height];
-    camGame.addShader(pixelShader); 
 
+    FlxG.camera.addShader(pixelShader); 
+    FlxG.camera.addShader(pixelShader2); 
+
+    pixelShader.str = 3;
+    pixelShader.ok = 9;
+    pixelShader2.blockSize = 6; // (6 due to assets scale)
+    pixelShader2.res = [FlxG.width, FlxG.height];
+    FlxG.camera.addShader(pixelShader);
     PlayState.instance.comboGroup.alpha = 0;
 
     dad2 = strumLines.members[3].characters[0];
@@ -46,12 +56,27 @@ function onSubstateClose(event) if (mortis!= null && paused && mortis.alpha == 1
 function focusGained() if (mortis != null && !paused && mortis.alpha == 1) mortis.resume();
 
 function postCreate(){
-    healthBarCross = new FlxSprite().loadGraphic(Paths.image("healthbars/trinity/bar-p1"));
-	healthBarCross.camera = camCinema;
-    healthBarCross.scale.set(3,3);
-    healthBarCross.x = 1200;
-	healthBarCross.screenCenter(FlxAxes.Y);
-	add(healthBarCross);
+    healthBar.alpha = iconP1.alpha = iconP2.alpha = healthBarBG.alpha = 0;
+
+    health = 2;
+
+    healthBar2 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
+    healthBar2.createImageBar(Paths.image("healthbars/trinity/bar-p2"), Paths.image("healthbars/trinity/bar-p1")); 
+    healthBar2.camera = camCinema;
+    healthBar2.scale.set(3,3);
+    healthBar2.x = 1200;
+	healthBar2.screenCenter(FlxAxes.Y);
+    add(healthBar2);
+
+    healthBar3 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
+    healthBar3.createImageBar(Paths.image("healthbars/trinity/silver-p2"), Paths.image("healthbars/trinity/silver-p1")); 
+    healthBar3.camera = camCinema;
+    healthBar3.scale.set(3,3);
+    healthBar3.x = 1200;
+	healthBar3.screenCenter(FlxAxes.Y);
+    add(healthBar3);
+
+    healthBar3.alpha = 0.001;
 
     //trasitions
     //your not pretty
@@ -60,11 +85,11 @@ function postCreate(){
     pretty.animation.addByPrefix('pretty', "idle", 12, false);
     pretty.animation.finishCallback = function (n:String) {
         pretty.alpha = bg1.alpha = 0.001;
-        bg2.alpha = 1;
+        //bg2.alpha = 1;
     }
     pretty.screenCenter();
     pretty.camera = cutsceneCamera;
-    pretty.scale.set(6,5);
+    pretty.scale.set(4,5);
     pretty.alpha = 0.001;
     add(pretty);
 
@@ -129,9 +154,15 @@ function postCreate(){
     whiteThingie.cameras = [camGame];
     add(whiteThingie);
 }
-function update(elapsed:Float){
-    pixelShader.blockSize = .3 * FlxG.camera.zoom;
+function update(){
+    if (health <= 1.8){
+        healthBar3.alpha = 1;
+    }else{
+        healthBar3.alpha = 0.001;
+    }
+    pixelShader2.blockSize = .5 * FlxG.camera.zoom;
 }
+function onDadHit(note) if (health > 0.1) health -= .015 * 1;
 
 function events(name){
     if (name == "pretty"){
@@ -217,15 +248,19 @@ function events(name){
     if (name == "video"){
         mortis.alpha = 1;
         FlxTween.tween(camHUD, {alpha: 0}, 1, {ease: FlxEase.circOut});
-        FlxTween.tween(healthBarCross, {alpha: 0}, 1, {ease: FlxEase.circOut});
+        FlxTween.tween(healthBar3, {alpha: 0}, 1, {ease: FlxEase.circOut});
+        FlxTween.tween(healthBar2, {alpha: 0}, 1, {ease: FlxEase.circOut});
         mortis.play();
     }
 }
 function zoomINTween(){
     FlxTween.tween(FlxG.camera, {zoom: 3}, 1, {ease: FlxEase.linear});		
 }
+function zoomINTween1(){
+    FlxTween.tween(FlxG.camera, {zoom: 6}, 1, {ease: FlxEase.linear});		
+}
 function postUpdate(){
-    healthBar.alpha = iconP1.alpha = iconP2.alpha = healthBarBG.alpha = 0;
+    iconP1.alpha = iconP2.alpha = 0;
 }
 function zoom(zoom) {
     defaultCamZoom = zoom;

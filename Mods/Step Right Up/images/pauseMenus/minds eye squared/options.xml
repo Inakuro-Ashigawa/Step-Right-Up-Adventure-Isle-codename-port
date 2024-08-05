@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="options.png">
+<SubTexture name="options idle" x="0" y="0" width="455" height="152" frameX="-14" frameY="-3" frameWidth="490" frameHeight="156" />
+<SubTexture name="options selected" x="0" y="152" width="455" height="152" frameX="-14" frameY="-3" frameWidth="519" frameHeight="157" />
+</TextureAtlas>

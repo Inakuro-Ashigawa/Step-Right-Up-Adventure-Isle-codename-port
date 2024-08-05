@@ -2,7 +2,7 @@
 <stage folder="stages/trinity/" zoom="4.5" startCamPosX="760" startCamPosY="80">
 	<combo/>
 	<sprite x="534" antialiasing="false" y="0" sprite="2v2" scale="1.2" alpha="0" name="tweo"/>
-	<sprite x="534" antialiasing="false" y="-18" sprite="michael/Michael BG" alpha="0" name="michaelBG"/>
+	<sprite x="530" antialiasing="false" scale="1.2" y="-18" sprite="michael/Michael BG" alpha="0" name="michaelBG"/>
 	<sprite x="525" antialiasing="false" sprite="bg2" y="-95" alpha="0" name="bg2"/>
 	<sprite x="636" antialiasing="false" sprite="bg1" y="3" name="bg1"/>
 	<sprite x="683" antialiasing="false" sprite="john/alone_actual" y="58" alpha="0" scale="2" name="alone_actual"/>

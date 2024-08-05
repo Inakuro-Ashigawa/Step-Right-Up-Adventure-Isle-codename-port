@@ -1,8 +1,10 @@
-import funkin.backend.assets.ModsFolder;
+
+import sys.io.File;
 import lime.graphics.Image;
 import openfl.system.Capabilities;
 import funkin.backend.utils.NdllUtil;
-import sys.io.File;
+import funkin.backend.assets.ModsFolder;
+import funkin.backend.system.framerate.Framerate;
 
 static var initialized:Bool = false;
 static var redirectStates:Map<FlxState, String> = [
@@ -24,4 +26,6 @@ function new(){
 function update(elapsed){
 	cursorShit = new FunkinSprite().loadGraphic(Paths.image("mouse_hover"));
 	FlxG.mouse.load(cursorShit.pixels);
+    
+    Framerate.codenameBuildField.text = 'Step Right Up Advanture Isle (CNE Port)';
 }

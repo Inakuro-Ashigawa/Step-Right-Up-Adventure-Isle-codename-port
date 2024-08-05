@@ -20,32 +20,41 @@ function create(){
     FlxG.cameras.add(pauseCam, false);
     pauseCam.bgColor = FlxColor.BLACK; 
     
-    bg = new FlxSprite().loadGraphic(Paths.image("pauseMenus/deep dream/portrait"));
+    bg = new FlxSprite().loadGraphic(Paths.image("pauseMenus/minds eye squared/portrait"));
     bg.cameras = [pauseCam];
     bg.scale.set(.6,.6);
     bg.x = -250;
-    bg.screenCenter(FlxAxes.Y);
+    bg.screenCenter(FlxAxes.X);
     add(bg);
-
-    box = new FlxSprite(400,-210).loadGraphic(Paths.image("pauseMenus/deep dream/banner"));
-    box.cameras = [pauseCam];
-    box.scale.set(.6,.6);
-    add(box);
 
     Shits = new FlxTypedGroup();
 	add(Shits);
 
     for (i in 0...4) {
         var option = Things[i];
-        options = new FlxSprite(700, 280 + 100 * i).loadGraphic(Paths.image("pauseMenus/deep dream/" + option));
+        options = new FlxSprite(0, 50 + 170 * i);
+        options.frames = Paths.getSparrowAtlas('pauseMenus/minds eye squared/' + option);
+        options.animation.addByPrefix('idle', option + "idle", 24);
+		options.animation.addByPrefix('selected', option + "selected", 24);
+        options.animation.play('selected');
         options.cameras = [pauseCam];
         options.ID = i;
         Shits.add(options);
         add(options);
+        
+        if (options.ID == 1){
+            options.x = 700;
+            options.y = 50;
+        }
+        if (options.ID == 2){
+            options.x = 0;
+            options.y = 500;
+        }
+        if (options.ID == 3){
+            options.x = 800;
+            options.y = 500;
+        }
     }
-    cursor = new FlxSprite(630,0).loadGraphic(Paths.image("pauseMenus/deep dream/cursor"));
-    cursor.cameras = [pauseCam];
-    add(cursor);
 }
 function update(){
     if (controls.ACCEPT) selectOption();
@@ -54,10 +63,6 @@ function update(){
 
 	if (controls.UP_P) changeItem(-1);
 
-    if (curSelected >= 0 && curSelected < Shits.length) {
-        var selectedOption = Shits.members[curSelected];
-        cursor.y = selectedOption.y - 2; 
-    }
 }
 function selectOption() {
 	var event = EventManager.get(NameEvent).recycle(Things[curSelected]);
@@ -78,5 +83,13 @@ function selectOption() {
 	}
 }
 function changeItem(huh: Int = 0) {
-    curSelected = FlxMath.wrap(curSelected + huh, 0, Things.length - 1);    
+    curSelected = FlxMath.wrap(curSelected + huh, 0, Things.length - 1);  
+   
+    Shits.forEach(function(spr:FlxSprite) {
+		if (spr.ID == curSelected) {
+            options.animation.play('selected');
+        }else{
+            options.animation.play('idle');
+        }
+    });
 }

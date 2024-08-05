@@ -21,7 +21,7 @@ function create(){
     FlxG.cameras.add(pauseCam, false);
     pauseCam.bgColor = FlxColor.BLACK;
 
-    pixelShader.blockSize = .6; // (6 due to assets scale)
+    pixelShader.blockSize = 1.3;
     pixelShader.res = [FlxG.width, FlxG.height];
     pauseCam.addShader(pixelShader); 
     
@@ -54,12 +54,14 @@ function create(){
 function update(){
     if (controls.ACCEPT) selectOption();
 
-    pixelShader.blockSize = .3 * FlxG.camera.zoom;
-
     if (controls.DOWN_P) changeItem(1, false);
 
 	if (controls.UP_P) changeItem(-1);
 
+    if (curSelected >= 0 && curSelected < Shits.length) {
+        var selectedOption = Shits.members[curSelected];
+        cursor.y = selectedOption.y - 10; 
+    }
 }
 function selectOption() {
 	var event = EventManager.get(NameEvent).recycle(Things[curSelected]);
@@ -81,10 +83,5 @@ function selectOption() {
 }
 function changeItem(huh: Int = 0) {
     curSelected = FlxMath.wrap(curSelected + huh, 0, Things.length - 1);
-
-    if (curSelected >= 0 && curSelected < Shits.length) {
-        var selectedOption = Shits.members[curSelected];
-        cursor.y = selectedOption.y - 10; 
-    }
     
 }

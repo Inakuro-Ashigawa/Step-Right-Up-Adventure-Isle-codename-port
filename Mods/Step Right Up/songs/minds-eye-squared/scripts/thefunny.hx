@@ -30,7 +30,7 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-window.fullscreen = true;
+//window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
@@ -78,15 +78,6 @@ function create(){
 	error.alpha = 0.001;
 	add(error);
 
-	//healthBar
-	healthFil = new FlxSprite(840,540).loadGraphic(Paths.image("healthbars/smile/win-p1"));
-	healthFil.camera = camHUD;
-	add(healthFil);
-
-	healthFrame = new FlxSprite(770,470).loadGraphic(Paths.image("healthbars/smile/frame"));
-	healthFrame.camera = camHUD;
-	add(healthFrame);
-
 	fuckers = new FlxBackdrop(FlxAxes.X, FlxAxes.X);
 	fuckers.frames = Paths.getSparrowAtlas('stages/smile/fuckers');
 	fuckers.animation.addByPrefix('idle', "loop",12, true);
@@ -120,6 +111,21 @@ function create(){
     blackBarThingie2.alpha = 0;
     blackBarThingie2.cameras = [camHUD];
     add(blackBarThingie2);
+}
+function postCreate(){
+	healthBar.alpha = healthBarBG.alpha = iconP1.alpha = iconP2.alpha = 0;
+	health = 2;
+
+	var healthBar2 = new FlxBar(0, 0, FlxBarFillDirection.LEFT_TO_RIGHT, 2000, 200, PlayState.instance, "health", 0, maxHealth);
+    healthBar2.createImageBar(Paths.image("trans"), Paths.image("healthbars/smile/win-p1")); 
+    healthBar2.camera = camHUD;
+    healthBar2.x = 1200;
+	healthBar2.screenCenter(FlxAxes.Y);
+    add(healthBar2);
+
+	var healthFrame = new FlxSprite(770,470).loadGraphic(Paths.image("healthbars/smile/frame"));
+	healthFrame.camera = camHUD;
+	add(healthFrame);
 }
 function fadeout2(){
 	FlxTween.tween(blackBarThingie2, {alpha: 1}, 1, {ease: FlxEase.circOut});
@@ -235,5 +241,12 @@ function endReal(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
 	FlxTween.tween(window, {opacity: 0}, 3, {ease: FlxEase.expoOut});
 	setWallpaper(realPath3);
+}
+function onGamePause(event) {
+    event.cancel();
+    persistentUpdate = false;
+    persistentDraw = paused = true;
+
+    openSubState(new ModSubState('Pause Menus/MIS'));
 }
 function onSongEnd() window.opacity = 1;

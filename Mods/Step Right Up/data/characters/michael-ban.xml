@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-8" y="3" sprite="faith/michael/michael-ban" camx="-160" camy="140" icon="ft-michael" color="#F40202">
+<character x="-8" y="3" sprite="faith/michael/michael-ban" antialiasing="false"  camx="-160" camy="140" icon="ft-michael" color="#F40202">
 	<anim name="singDOWN" anim="michael ban down" x="0" y="-2" fps="15" loop="false"/>
 	<anim name="singUP" anim="michael ban up" x="0" y="0" fps="15" loop="false"/>
 	<anim name="singLEFT" anim="michael ban left" x="0" y="0" fps="15" loop="false"/>

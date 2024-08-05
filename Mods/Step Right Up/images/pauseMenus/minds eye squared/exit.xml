@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="exit.png">
+<SubTexture name="exit idle" x="0" y="0" width="248" height="125" frameX="-1" frameY="-19" frameWidth="464" frameHeight="175" />
+<SubTexture name="exit selected" x="248" y="0" width="248" height="125" frameX="-1" frameY="0" frameWidth="480" frameHeight="138" />
+</TextureAtlas>
