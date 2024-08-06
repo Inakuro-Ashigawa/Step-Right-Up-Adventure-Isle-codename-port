@@ -218,7 +218,7 @@ function events(name){
         michaelBG.alpha = 1;
     }
     if (name == "fade1"){
-        //FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
+        FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
     }
     if (name == "fade2"){
         FlxTween.tween(blackBarThingie2, {alpha: 0}, 2, {ease: FlxEase.circOut});
