@@ -5,6 +5,7 @@ import flixel.ui.FlxBar.FlxBarFillDirection;
 var dad2;
 var healthBar3;
 var healthBar2;
+var Father,FatherACC:Bool;
 var fullTimer:Float = 0;
 var cutsceneCamera:FlxCamera;
 var cancelCameraMove:Bool = false;
@@ -25,7 +26,7 @@ function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
 function create(){
-
+    Father = FatherACC = false;
     FlxG.camera.addShader(pixelShader); 
     FlxG.camera.addShader(pixelShader2); 
 
@@ -76,7 +77,15 @@ function postCreate(){
 	healthBar3.screenCenter(FlxAxes.Y);
     add(healthBar3);
 
-    healthBar3.alpha = 0.001;
+    healthBar4 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
+    healthBar4.createImageBar(Paths.image("healthbars/trinity/bronze-p2"), Paths.image("healthbars/trinity/bronze-p1")); 
+    healthBar4.camera = camCinema;
+    healthBar4.scale.set(3,3);
+    healthBar4.x = 1200;
+	healthBar4.screenCenter(FlxAxes.Y);
+    add(healthBar4);
+
+    healthBar3.alpha = healthBar4.alpha = 0.001;
 
     //trasitions
     //your not pretty
@@ -85,7 +94,7 @@ function postCreate(){
     pretty.animation.addByPrefix('pretty', "idle", 12, false);
     pretty.animation.finishCallback = function (n:String) {
         pretty.alpha = bg1.alpha = 0.001;
-        //bg2.alpha = 1;
+        bg2.alpha = 1;
     }
     pretty.screenCenter();
     pretty.camera = cutsceneCamera;
@@ -155,12 +164,23 @@ function postCreate(){
     add(whiteThingie);
 }
 function update(){
-    if (health <= 1.8){
-        healthBar3.alpha = 1;
-    }else{
-        healthBar3.alpha = 0.001;
-    }
     pixelShader2.blockSize = .5 * FlxG.camera.zoom;
+
+    if (health <= 1.8 && !Father) {
+        healthBar3.alpha = 1;       
+        healthBar2.alpha = 1;       
+        healthBar4.alpha = 0.0001;
+    } 
+    else if (health >= 1.8 && !Father){
+        healthBar3.alpha = 0.001;   
+        healthBar2.alpha = 1;       
+        healthBar4.alpha = 0.0001;  
+    }
+    else if (Father) {
+        healthBar3.alpha = 0.001;  
+        healthBar2.alpha = 0.001;  
+        healthBar4.alpha = 1;      
+    }
 }
 function onDadHit(note) if (health > 0.1) health -= .015 * 1;
 
@@ -198,7 +218,7 @@ function events(name){
         michaelBG.alpha = 1;
     }
     if (name == "fade1"){
-        FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
+        //FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
     }
     if (name == "fade2"){
         FlxTween.tween(blackBarThingie2, {alpha: 0}, 2, {ease: FlxEase.circOut});
@@ -217,6 +237,7 @@ function events(name){
             dad.x = 710;
             boderv1.y = boderv2.y = -80;
             zoom(2.5);
+            Father = FatherACC = true;
             trace("Father");
         }});
     }
@@ -229,6 +250,8 @@ function events(name){
         cancelCameraMove = true;
         camFollow.y = 160;
         zoom(2);
+        Father = false;
+        FatherACC = false;
         trace("2v2");
     }
     if (name == "worship"){
@@ -248,8 +271,9 @@ function events(name){
     if (name == "video"){
         mortis.alpha = 1;
         FlxTween.tween(camHUD, {alpha: 0}, 1, {ease: FlxEase.circOut});
-        FlxTween.tween(healthBar3, {alpha: 0}, 1, {ease: FlxEase.circOut});
         FlxTween.tween(healthBar2, {alpha: 0}, 1, {ease: FlxEase.circOut});
+        FlxTween.tween(healthBar3, {alpha: 0}, 1, {ease: FlxEase.circOut});
+        FlxTween.tween(healthBar4, {alpha: 0}, 1, {ease: FlxEase.circOut});
         mortis.play();
     }
 }
@@ -259,9 +283,18 @@ function zoomINTween(){
 function zoomINTween1(){
     FlxTween.tween(FlxG.camera, {zoom: 6}, 1, {ease: FlxEase.linear});		
 }
-function postUpdate(){
+function postUpdate() {
     iconP1.alpha = iconP2.alpha = 0;
 }
 function zoom(zoom) {
     defaultCamZoom = zoom;
+}
+function onPlayerHit(note:NoteHitEvent) {
+    var curNotes = note.noteType;
+    switch(curNotes){
+        case "GF Sing":
+            Father = true;
+        case null | "":
+            if (!FatherACC) Father = false;
+    }
 }
