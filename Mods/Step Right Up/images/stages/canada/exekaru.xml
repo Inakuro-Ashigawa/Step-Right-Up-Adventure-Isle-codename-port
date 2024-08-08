@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="exekaru.png">
+<SubTexture name="idle0000" x="142" y="320" width="154" height="139" frameX="-33" frameY="-48" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0001" x="296" y="320" width="154" height="139" frameX="-36" frameY="-48" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0002" x="157" y="465" width="154" height="133" frameX="-36" frameY="-57" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0003" x="311" y="465" width="160" height="133" frameX="-33" frameY="-57" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0004" x="647" y="0" width="154" height="130" frameX="-33" frameY="-57" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0005" x="471" y="465" width="154" height="133" frameX="-33" frameY="-57" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0006" x="0" y="465" width="157" height="136" frameX="-33" frameY="-54" frameWidth="210" frameHeight="189" />
+<SubTexture name="idle0007" x="142" y="320" width="154" height="139" frameX="-33" frameY="-48" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0000" x="496" y="0" width="151" height="139" frameX="-39" frameY="-51" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0001" x="647" y="257" width="145" height="124" frameX="-69" frameY="-60" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0002" x="647" y="381" width="127" height="121" frameX="-66" frameY="-72" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0003" x="647" y="130" width="127" height="127" frameX="-54" frameY="-66" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0004" x="357" y="0" width="139" height="148" frameX="-33" frameY="-30" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0005" x="118" y="0" width="127" height="166" frameX="-9" frameY="-3" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0006" x="0" y="320" width="142" height="145" frameX="0" frameY="-9" frameWidth="210" frameHeight="189" />
+<SubTexture name="spin0007" x="0" y="0" width="118" height="169" frameX="-18" frameY="0" frameWidth="210" frameHeight="189" />
+<SubTexture name="laugh0000" x="245" y="0" width="112" height="157" frameX="-30" frameY="-6" frameWidth="210" frameHeight="189" />
+<SubTexture name="laugh0001" x="0" y="169" width="115" height="151" frameX="-30" frameY="-9" frameWidth="210" frameHeight="189" />
+<SubTexture name="laugh0002" x="357" y="148" width="115" height="148" frameX="-30" frameY="-12" frameWidth="210" frameHeight="189" />
+<SubTexture name="laugh0003" x="115" y="169" width="112" height="151" frameX="-30" frameY="-9" frameWidth="210" frameHeight="189" />
+</TextureAtlas>

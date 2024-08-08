@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="blankChar.png">
+<SubTexture name="idle0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteLeft0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteRight0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteUp0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteDown0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteMissLeft0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteMissRight0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteMissUp0000" x="0" y="0" width="1" height="1"/>
+<SubTexture name="noteMissDown0000" x="0" y="0" width="1" height="1"/>
+</TextureAtlas>

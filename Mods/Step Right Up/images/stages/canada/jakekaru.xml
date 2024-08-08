@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jakekaru.png">
+<SubTexture name="scream0000" x="0" y="0" width="400" height="496" frameX="-82" frameY="-2" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0001" x="400" y="0" width="400" height="496" frameX="-82" frameY="-2" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0002" x="800" y="0" width="400" height="483" frameX="-82" frameY="-15" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0003" x="0" y="496" width="400" height="483" frameX="-82" frameY="-15" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0004" x="400" y="496" width="400" height="468" frameX="-82" frameY="-30" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0005" x="1200" y="464" width="405" height="459" frameX="-77" frameY="-39" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0006" x="0" y="979" width="481" height="461" frameX="-1" frameY="-37" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0007" x="1200" y="0" width="480" height="464" frameX="-2" frameY="-34" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0008" x="481" y="979" width="408" height="454" frameX="-74" frameY="-44" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0009" x="1680" y="0" width="416" height="446" frameX="-66" frameY="-52" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0010" x="889" y="979" width="418" height="448" frameX="-64" frameY="-50" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0011" x="852" y="1440" width="422" height="438" frameX="-60" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0012" x="0" y="1440" width="425" height="439" frameX="-57" frameY="-59" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0013" x="425" y="1440" width="427" height="439" frameX="-55" frameY="-59" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0014" x="1274" y="1440" width="432" height="438" frameX="-50" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0015" x="2096" y="0" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0016" x="2096" y="438" width="434" height="438" frameX="-48" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0017" x="2096" y="876" width="434" height="438" frameX="-48" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0018" x="2096" y="1314" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0019" x="0" y="1879" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0020" x="435" y="1879" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0021" x="870" y="1879" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0022" x="1305" y="1879" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0023" x="1740" y="1879" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0024" x="2531" y="0" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0025" x="2531" y="438" width="433" height="438" frameX="-49" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0026" x="2531" y="876" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0027" x="2531" y="1314" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0028" x="2531" y="0" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0029" x="2531" y="438" width="433" height="438" frameX="-49" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0030" x="2531" y="876" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+<SubTexture name="scream0031" x="2531" y="1314" width="435" height="438" frameX="-47" frameY="-60" frameWidth="482" frameHeight="498" />
+</TextureAtlas>

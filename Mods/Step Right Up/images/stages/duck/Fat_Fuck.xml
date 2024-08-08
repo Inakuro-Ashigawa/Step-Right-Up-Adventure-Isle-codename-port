@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Fat_Fuck.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Rise0000" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0001" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0002" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0003" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0004" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0005" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0006" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0007" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0008" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0009" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0010" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0011" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0012" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0013" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0014" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0015" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0016" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0017" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0018" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0019" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0020" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0021" x="15" y="15" width="861" height="755" frameX="-2" frameY="-102" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0022" x="891" y="15" width="861" height="761" frameX="-2" frameY="-96" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0023" x="891" y="15" width="861" height="761" frameX="-2" frameY="-96" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0024" x="1767" y="15" width="861" height="830" frameX="-2" frameY="-27" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0025" x="1767" y="15" width="861" height="830" frameX="-2" frameY="-27" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0026" x="2643" y="15" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0027" x="2643" y="15" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0028" x="15" y="864" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0029" x="15" y="864" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0030" x="891" y="864" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0031" x="891" y="864" width="861" height="834" frameX="-2" frameY="-23" frameWidth="864" frameHeight="857"/>
+	<SubTexture name="Rise0032" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0033" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0034" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0035" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0036" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0037" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0038" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0039" x="1767" y="864" width="864" height="857"/>
+	<SubTexture name="Rise0040" x="1767" y="864" width="864" height="857"/>
+</TextureAtlas>

@@ -23,6 +23,18 @@ var setWallpaper = NdllUtil.getFunction("ndll-mario", "change_wallpaper", 1);
 var realPath = StringTools.replace(FileSystem.absolutePath(Assets.getPath("assets/images/SmileDogBG.webp")), "/", "\\");
 var realPath2 = StringTools.replace(FileSystem.absolutePath(Assets.getPath("assets/images/stages/smile/hellnah.png")), "/", "\\");
 var realPath3 = StringTools.replace(FileSystem.absolutePath(Assets.getPath("assets/images/stages/smile/HURRAY.png")), "/", "\\");
+var windowCount = 1;
+var windows = ['DEATH', 'DOG', 'SARAH', 'SMILE', 'SPREADTHEWORD'];
+var windowString = '';
+var windowChecks = [];
+var windowHealth = [];
+var WIN:FlxSprite;
+var xpCount = 1;
+var xpWins = ['AREYOUHAVINGFUN', 'CHECKTHESEMOVES', 'HISARATAYLOR', 'INYOURROOM', 'LOVELAUGHLOVE','PAYATTENTION'];
+var xpString = '';
+
+var xpChecks = [];
+var xpHealth = [];
 
 window.x = winX;
 window.y = winY;
@@ -44,7 +56,20 @@ function addBehindDad(thing){
 function addBehindbf(thing){
     insert(members.indexOf(boyfriend), thing);
 }
+function popupCreate(){
+	WIN = new FlxSprite(FlxG.random.int(0, 1350), FlxG.random.int(-120, 620)).loadGraphic(Paths.image("stages/smile/windows/" + windows[FlxG.random.int(1, 5)]));
+	add(WIN);
+	WIN.alpha = 0;
+	WIN.scale.set(0.95, 0.95);
+	FlxTween.tween(WIN.scale, {y: 1,x: 1}, .1, {ease: FlxEase.linear});
+	FlxTween.tween(WIN, {alpha: 1}, .1, {ease: FlxEase.linear});
+	WIN.camera = camHUD;
+	windowChecks[windowCount] = true;
+	windowCount = windowCount + 1;
+	windowString = windows[FlxG.random.int(1, 5)];
+}
 function create(){
+
 	window.title = "SRUAI - MINDS EYE SQUARED";
 	camGame.alpha = 0.001;
 
@@ -162,6 +187,24 @@ function postCreate()
 	healthBar.alpha = healthBarBG.alpha = 0;
 
 function update(elapsed){
+	if (WIN != null) {
+		var popupX = WIN.x;
+		var popupY = WIN.y;
+		var popupWidth = WIN.width;
+		var popupHeight = WIN.height;
+		var mouseX = FlxG.mouse.x;
+		var mouseY = FlxG.mouse.y;
+
+		if (FlxG.mouse.justPressed) {
+			trace("Mouse clicked at: (" + mouseX + ", " + mouseY + ")");
+				if ((mouseX >= popupX && mouseX <= popupX + popupWidth) && (mouseY >= popupY && mouseY <= popupY + popupHeight)) {
+						
+					FlxTween.tween(WIN.scale, {y: 0.95, x: 0.95}, 0.1, {ease: FlxEase.linear});
+					FlxTween.tween(WIN, {alpha: 0}, 0.1, {ease: FlxEase.linear});
+					windowChecks[i] = false;
+			}
+		}
+	}
 	iconP1.alpha = iconP2.alpha = 0.001;
 	DEATHTOALL.x = dad.x;
 	DEATHTOALL.y = dad.y - 100;
@@ -234,8 +277,7 @@ function ending(){
 }
 function randomMove(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
-	window.x = FlxG.random.float(1, 900);
-	window.y = FlxG.random.float(1, 900);
+	//popupCreate();
 }
 function endReal(){
 	tweenWindow1X.active = tweenWindow1Y.active = false;	
