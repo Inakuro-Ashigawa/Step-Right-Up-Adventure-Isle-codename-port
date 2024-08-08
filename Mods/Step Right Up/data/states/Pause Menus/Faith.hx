@@ -20,10 +20,7 @@ var Things:Array<String> = ['resume', 'restart', 'options','exit'];
 function create(){
     FlxG.cameras.add(pauseCam, false);
     pauseCam.bgColor = FlxColor.BLACK;
-
-    pixelShader.blockSize = 1.3;
-    pixelShader.res = [FlxG.width, FlxG.height];
-    pauseCam.addShader(pixelShader); 
+    pauseCam.addShader(vcr = new CustomShader("vcr")); 
     
     bg = new FlxSprite().loadGraphic(Paths.image("pauseMenus/mortis/portrait"));
     bg.cameras = [pauseCam];

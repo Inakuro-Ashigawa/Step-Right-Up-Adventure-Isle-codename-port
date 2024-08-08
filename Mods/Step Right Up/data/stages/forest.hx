@@ -1,6 +1,7 @@
 import flixel.ui.FlxBar;
 import hxvlc.openfl.Video;
 import hxvlc.flixel.FlxVideoSprite;
+import flixel.addons.display.FlxBackdrop;
 import flixel.ui.FlxBar.FlxBarFillDirection;
 var dad2;
 var healthBar3;
@@ -15,8 +16,11 @@ var boder2 = new FlxSprite(-1000,-40).loadGraphic(Paths.image('stages/trinity/mi
 var boderv1 = new FlxSprite(996,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var boderv2 = new FlxSprite(696,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
 var mortis:FlxVideoSprite;
+var wanted = null;
+var multAmy = new FlxBackdrop(null, 0x01, 0, 0);
 var pixelShader = new CustomShader("RectilinearShader");
-var pixelShader2 = new CustomShader("pixel perfect");
+var vcr = new CustomShader("vcr");
+var colorShader = new CustomShader("colorReplace");
 
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
@@ -26,16 +30,6 @@ function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
 function create(){
-    Father = FatherACC = false;
-    FlxG.camera.addShader(pixelShader); 
-    FlxG.camera.addShader(pixelShader2); 
-
-    pixelShader.str = 3;
-    pixelShader.ok = 9;
-    pixelShader2.blockSize = 6; // (6 due to assets scale)
-    pixelShader2.res = [FlxG.width, FlxG.height];
-    FlxG.camera.addShader(pixelShader);
-    PlayState.instance.comboGroup.alpha = 0;
 
     dad2 = strumLines.members[3].characters[0];
     remove(dad2);
@@ -50,6 +44,11 @@ function create(){
     FlxG.cameras.remove(camHUD, false);
     FlxG.cameras.add(cutsceneCamera, false);
 	FlxG.cameras.add(camHUD, false);  
+
+    //shader stuffs
+    FlxG.camera.addShader(vcr);
+    camHUD.addShader(vcr);
+    cutsceneCamera.addShader(vcr);
 }
 //pauses video
 function onSubstateOpen(event) if (mortis!= null && paused && mortis.alpha == 1) mortis.pause();
@@ -63,7 +62,7 @@ function postCreate(){
 
     healthBar2 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
     healthBar2.createImageBar(Paths.image("healthbars/trinity/bar-p2"), Paths.image("healthbars/trinity/bar-p1")); 
-    healthBar2.camera = camCinema;
+    healthBar2.camera = cutsceneCamera;
     healthBar2.scale.set(3,3);
     healthBar2.x = 1200;
 	healthBar2.screenCenter(FlxAxes.Y);
@@ -71,21 +70,13 @@ function postCreate(){
 
     healthBar3 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
     healthBar3.createImageBar(Paths.image("healthbars/trinity/silver-p2"), Paths.image("healthbars/trinity/silver-p1")); 
-    healthBar3.camera = camCinema;
+    healthBar3.camera = cutsceneCamera;
     healthBar3.scale.set(3,3);
     healthBar3.x = 1200;
 	healthBar3.screenCenter(FlxAxes.Y);
     add(healthBar3);
 
-    healthBar4 = new FlxBar(0, 0, FlxBarFillDirection.BOTTOM_TO_TOP, 4000, 200, PlayState.instance, "health", 0, maxHealth);
-    healthBar4.createImageBar(Paths.image("healthbars/trinity/bronze-p2"), Paths.image("healthbars/trinity/bronze-p1")); 
-    healthBar4.camera = camCinema;
-    healthBar4.scale.set(3,3);
-    healthBar4.x = 1200;
-	healthBar4.screenCenter(FlxAxes.Y);
-    add(healthBar4);
-
-    healthBar3.alpha = healthBar4.alpha = 0.001;
+    healthBar3.alpha = 0.001;
 
     //trasitions
     //your not pretty
@@ -94,11 +85,12 @@ function postCreate(){
     pretty.animation.addByPrefix('pretty', "idle", 12, false);
     pretty.animation.finishCallback = function (n:String) {
         pretty.alpha = bg1.alpha = 0.001;
-        bg2.alpha = 1;
+        bg2.alpha = boyfriend.alpha = 1;
+        zoom(4.5);
     }
     pretty.screenCenter();
     pretty.camera = cutsceneCamera;
-    pretty.scale.set(4,5);
+    pretty.scale.set(5.5,5);
     pretty.alpha = 0.001;
     add(pretty);
 
@@ -128,6 +120,17 @@ function postCreate(){
     worship.scale.set(4,5);
     worship.alpha = 0.001;
     add(worship);
+
+    multAmy.frames = Paths.getSparrowAtlas('characters/faith/amy/amy-hardstyle');
+    multAmy.animation.addByPrefix('idle', 'idle', 24, true);
+    multAmy.animation.addByPrefix('UP', 'up', 24, true);
+    multAmy.animation.addByPrefix('DOWN', 'down', 24, true);
+    multAmy.animation.addByPrefix('LEFT', 'left', 24, true);
+    multAmy.animation.addByPrefix('RIGHT', 'right', 24, true);
+    multAmy.animation.play('idle');
+    multAmy.alpha = 0.5;
+    multAmy.visible = false;
+    insert(0,multAmy);
 
     mortis = new FlxVideoSprite();
     mortis.load(Assets.getPath(Paths.video("cutscenes/mortis")));
@@ -163,44 +166,64 @@ function postCreate(){
     whiteThingie.cameras = [camGame];
     add(whiteThingie);
 }
-function update(){
-    pixelShader2.blockSize = .5 * FlxG.camera.zoom;
+var singDir = ["LEFT", "DOWN", "UP", "RIGHT"];
+function onDadHit(note){ 
+    if (health > 0.1) health -= .015 * 1;
+    multAmy.animation.play(singDir[note.direction],true);
+}
+function update() {
+    var wanted = [255 / 255, 216 / 255, 0 / 255]; 
+    var crossColor = [255 / 255, 216 / 255, 0 / 255]; 
+    var silverColor = [192 / 255, 192 / 255, 192 / 255]; // silver
+    var goldColor = [255 / 255, 215 / 255, 0 / 255]; // gold
+    var newColor = [255 / 255, 216 / 255, 0 / 255];  // random
 
     if (health <= 1.8 && !Father) {
         healthBar3.alpha = 1;       
         healthBar2.alpha = 1;       
-        healthBar4.alpha = 0.0001;
+        boyfriend.shader = colorShader;
+        colorShader.u_colorToReplace = wanted;
+        colorShader.u_replacementColor = newColor;
+        colorShader.u_crossColor = crossColor;
+        colorShader.u_silverColor = silverColor;
+        colorShader.u_goldColor = goldColor;
+        colorShader.u_useSilver = true;  // Use silver for the cross
     } 
-    else if (health >= 1.8 && !Father){
+    else if (health >= 1.8 && !Father) {
         healthBar3.alpha = 0.001;   
         healthBar2.alpha = 1;       
-        healthBar4.alpha = 0.0001;  
-    }
-    else if (Father) {
-        healthBar3.alpha = 0.001;  
-        healthBar2.alpha = 0.001;  
-        healthBar4.alpha = 1;      
+        boyfriend.shader = colorShader;
+        colorShader.u_colorToReplace = wanted;
+        colorShader.u_replacementColor = newColor;
+        colorShader.u_crossColor = crossColor;
+        colorShader.u_silverColor = silverColor;
+        colorShader.u_goldColor = goldColor;
+        colorShader.u_useSilver = false;  // Use gold for the cross
     }
 }
-function onDadHit(note) if (health > 0.1) health -= .015 * 1;
-
+function plusZooms(){
+    zoom(defaultCamZoom + .2);
+}
 function events(name){
     if (name == "pretty"){
         pretty.animation.play('pretty');
         pretty.alpha = dad.alpha = 1;
+        boyfriend.alpha = 0;
     }
     if (name == "gone"){
         camGame.alpha = bg2.alpha = 0;
     }
     if (name == "back"){
         camGame.alpha = 1;
+        dad.alpha = 0;
+        multAmy.visible = true;
     }
     if (name == "trasiton"){
         defaultCamZoom = 3.5;
         boyfriend.x = 1000;
         boyfriend.y = 40;
         boder2.alpha = 1;
-        dad.alpha = 0.001;
+        multAmy.alpha = 0.001;
     }
     if (name == "moveBorder"){
         FlxTween.tween(boder1, {x: 796}, 1, {ease: FlxEase.circOut});
@@ -237,8 +260,6 @@ function events(name){
             dad.x = 710;
             boderv1.y = boderv2.y = -80;
             zoom(2.5);
-            Father = FatherACC = true;
-            trace("Father");
         }});
     }
     if (name == "two"){
@@ -247,12 +268,7 @@ function events(name){
         bg2.alpha = 0;
         dad.x = 900;
         dad.y = 150;
-        cancelCameraMove = true;
-        camFollow.y = 160;
         zoom(2);
-        Father = false;
-        FatherACC = false;
-        trace("2v2");
     }
     if (name == "worship"){
         worship.animation.play('worshipME');
@@ -262,7 +278,6 @@ function events(name){
         entrance.alpha = 1;
         boyfriend.x = 744.5;
         boyfriend.y = 66.5; 
-        cancelCameraMove = false;
         zoom(4);     
     }
     if (name == "solo"){
@@ -273,7 +288,6 @@ function events(name){
         FlxTween.tween(camHUD, {alpha: 0}, 1, {ease: FlxEase.circOut});
         FlxTween.tween(healthBar2, {alpha: 0}, 1, {ease: FlxEase.circOut});
         FlxTween.tween(healthBar3, {alpha: 0}, 1, {ease: FlxEase.circOut});
-        FlxTween.tween(healthBar4, {alpha: 0}, 1, {ease: FlxEase.circOut});
         mortis.play();
     }
 }
@@ -288,13 +302,4 @@ function postUpdate() {
 }
 function zoom(zoom) {
     defaultCamZoom = zoom;
-}
-function onPlayerHit(note:NoteHitEvent) {
-    var curNotes = note.noteType;
-    switch(curNotes){
-        case "GF Sing":
-            Father = true;
-        case null | "":
-            if (!FatherACC) Father = false;
-    }
 }

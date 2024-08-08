@@ -1,0 +1,32 @@
+{
+    "subtitles": [
+        {
+            "steps": [584, 585, 588, 595, 599, 603, 607, 624],
+            "curString": "DO /YOU /THINK /MY /FACE /IS /PRETTY?"
+        },
+        {
+            "steps": [737, 742, 746, 752],
+            "curString": "SHE'S /MINE /PREIST,"
+        },
+        {
+            "steps": [1724],
+            "curString": "SUFFER"
+        },
+        {
+            "steps": [1745],
+            "curString": "RUN"
+        },
+        {
+            "steps": [1748],
+            "curString": "RUN RUN"
+        },
+        {
+            "steps": [1751, 1756],
+            "curString": "RUN RUN RUN"
+        },
+        {
+            "steps": [3639, 3648, 3655],
+            "curString": "WORSHIP /ME"
+        }
+    ]
+}
