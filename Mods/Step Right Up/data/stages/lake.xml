@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/duck/" zoom=".5">
+	<combo/>
+	<gf x="1020" y="-219"/>
+	<sprite x="-1104" y="-1473.5" sprite="sky" name="sky"/>
+	<sprite x="-90" y="-869.5" sprite="lake" type="loop" scale="3" name="lake">
+		<anim x="0" loop="true" y="0" fps="24" anim="idle" type="loop" name="idle"/>
+	</sprite>
+	<sprite x="-365" y="-653.5" sprite="moon" scale="2" name="moon"/>
+	<sprite x="-827" y="-240.5" sprite="bush" name="bush"/>
+	<sprite x="-1138" y="-1465" sprite="clouds" name="clouds"/>
+	<sprite x="-1119" y="-972.5" sprite="ground" name="ground"/>
+	<dad x="-118.5" y="53.5"/>
+	<bf x="1263.5" y="60"/>
+</stage>
