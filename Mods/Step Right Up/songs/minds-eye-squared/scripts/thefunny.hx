@@ -43,8 +43,8 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-//window.fullscreen = true;
-//window.resizable = false;
+window.fullscreen = true;
+window.resizable = false;
 window.opacity = 1;
 canPause = true;
 
@@ -172,12 +172,12 @@ function onSongStart(){
 	FlxTween.tween(intro1.scale, {'x': 1, 'y': 1}, 30, {ease: FlxEase.circInOut});
 }
 function wallpaper(){
-	//canPause = window.fullscreen = false;
-	//setWallpaper(realPath);
+	canPause = window.fullscreen = false;
+	setWallpaper(realPath);
 	blackBarThingie2.alpha = 0;
 	dupe.mirrorS = false;
 	//FlxG.openURL('https://media.discordapp.net/attachments/1256905043462852665/1264307858036752485/Smile.jpg?ex=669d65f3&is=669c1473&hm=9b33f71a870ddf5dc61be3b7f970f0191153c3490b829b9380cee8ca6a17be52&format=webp&');
-	//camGame.alpha = window.opacity = 0;
+	camGame.alpha = window.opacity = 0;
 }
 function move(){
 	intro1.alpha = 0.0001;
@@ -286,7 +286,7 @@ function ending(){
 	boyfriend.alpha = 0.001;
 }
 function randomMove(){
-	//tweenWindow1X.active = tweenWindow1Y.active = false;	
+	tweenWindow1X.active = tweenWindow1Y.active = false;	
 	popupCreate();
 }
 function endReal(){
