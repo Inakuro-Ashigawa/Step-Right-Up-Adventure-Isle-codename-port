@@ -4,7 +4,7 @@
 	<gf x="1020" y="-219"/>
 	<sprite x="-1104" y="-1473.5" sprite="sky" name="sky"/>
 	<sprite x="-90" y="-869.5" sprite="lake" type="loop" scale="3" name="lake">
-		<anim x="0" loop="true" y="0" fps="24" anim="idle" type="loop" name="idle"/>
+		<anim x="0" loop="true" y="0" fps="24" anim="lake" type="loop" name="idle"/>
 	</sprite>
 	<sprite x="-365" y="-653.5" sprite="moon" scale="2" name="moon"/>
 	<sprite x="-827" y="-240.5" sprite="bush" name="bush"/>
