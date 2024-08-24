@@ -9,8 +9,8 @@ var healthBar2;
 var Father,FatherACC:Bool;
 var fullTimer:Float = 0;
 var cutsceneCamera:FlxCamera;
-var cancelCameraMove,michael2:Bool = false;
-var blackBarThingie2,whiteThingie,healthBarCross:FlxSprite;
+var cancelCameraMove,michael2,flashRed:Bool = false;
+var blackBarThingie2,whiteThingie,redThingie,healthBarCross:FlxSprite;
 var boder1 = new FlxSprite(1000,36).loadGraphic(Paths.image('stages/trinity/michael/border'));
 var boder2 = new FlxSprite(-1000,-40).loadGraphic(Paths.image('stages/trinity/michael/border'));
 var boderv1 = new FlxSprite(996,-240).loadGraphic(Paths.image('stages/trinity/michael/border_vertical'));
@@ -25,7 +25,13 @@ var colorShader = new CustomShader("colorReplace");
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
 function onCameraMove(e) if(cancelCameraMove) e.cancel();
-
+function beatHit(){
+    if (flashRed && curBeat % 2 == 0)
+    new FlxTimer().start(.5, function(timer4:FlxTimer) {
+        redThingie.alpha = .6;
+        FlxTween.tween(redThingie, {alpha: 0}, 0.3);
+    });
+}
 function addBehindDad(thing){
     insert(members.indexOf(dad), thing);
 }
@@ -33,7 +39,6 @@ function addBF(thing){
     insert(members.indexOf(boyfriend), thing);
 }
 function create(){
-
     dad2 = strumLines.members[3].characters[0];
     remove(dad2);
     addBehindDad(dad2);
@@ -55,6 +60,7 @@ function create(){
     camHUD.addShader(vcr);
     FlxG.camera.addShader(pixelShader);
     cutsceneCamera.addShader(vcr);
+
 
 }
 //pauses video
@@ -172,6 +178,12 @@ function postCreate(){
     whiteThingie.alpha = 0;
     whiteThingie.cameras = [camGame];
     add(whiteThingie);
+
+    redThingie = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
+    redThingie.setGraphicSize(Std.int(redThingie.width * 10));
+    redThingie.alpha = 0;
+    redThingie.screenCenter();
+    insert(members.indexOf(dad), redThingie);
 }
 var singDir = ["LEFT", "DOWN", "UP", "RIGHT"];
 function onDadHit(note){ 
@@ -231,6 +243,9 @@ function stepHit(curStep){
     }
 }
 function events(name){
+    if (name == "redFlash"){
+        flashRed = !flashRed;
+    }
     if (name == "pretty"){
         pretty.animation.play('pretty');
         pretty.alpha = dad.alpha = 1;
@@ -238,12 +253,13 @@ function events(name){
         prints.alpha = 0.001;
     }
     if (name == "gone"){
-        camGame.alpha = bg2.alpha = 0;
+        camGame.alpha = bg2.alpha = 0.001;
     }
     if (name == "back"){
         camGame.alpha = 1;
         dad.alpha = 0;
         multAmy.visible = true;
+        move2 = false;
     }
     if (name == "trasiton"){
         defaultCamZoom = 3.5;
@@ -266,6 +282,7 @@ function events(name){
     if (name == "peak"){
         boder1.alpha = boder2.alpha = 0;
         michaelBG.alpha = 1;
+        move2 = true;
     }
     if (name == "fade1"){
         FlxTween.tween(blackBarThingie2, {alpha: 1}, 2, {ease: FlxEase.circOut});
@@ -282,6 +299,7 @@ function events(name){
             alone_actual.alpha = whiteThingie.alpha = 0.001;
             boderv1.alpha = boderv2.alpha = dad.alpha = 1;
             zoom(2.5);
+            move2 = false;
             michael2 = true;
         }});
     }
@@ -293,6 +311,7 @@ function events(name){
         dad.y = 150;
         boyfriend.y = 50;
         boyfriend.x = 960;
+        move2 = true;
         FlxTween.tween(blackBarThingie2, {alpha: 0.001}, 1, {startDelay:.3,ease: FlxEase.circOut});
         zoom(2);
     }

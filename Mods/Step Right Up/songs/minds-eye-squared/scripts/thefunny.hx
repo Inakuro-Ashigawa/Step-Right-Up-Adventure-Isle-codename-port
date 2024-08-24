@@ -43,7 +43,7 @@ window.width = resizex;
 window.height = resizey;
 changex = window.x;
 changey = window.y;
-window.fullscreen = true;
+//window.fullscreen = true;
 window.resizable = false;
 window.opacity = 1;
 canPause = true;
@@ -59,7 +59,7 @@ function addBehindbf(thing){
 }
 function popupCreate(){
 	WIN = new FlxSprite(FlxG.random.int(0, 1350), FlxG.random.int(-120, 620)).loadGraphic(Paths.image("stages/smile/windows/" + windows[FlxG.random.int(1, 5)]));
-	add(WIN);
+	//add(WIN);
 	WIN.alpha = 0;
 	WIN.scale.set(0.95, 0.95);
 	FlxTween.tween(WIN.scale, {y: 1,x: 1}, .1, {ease: FlxEase.linear});
@@ -75,14 +75,13 @@ function popupCreate(){
 	Hitbox.camera = camHUD;
 	Hitbox.updateHitbox();
  	//Hitbox.visible = false;
-  	add(Hitbox);
+  	//add(Hitbox);
 }
 function create(){
 
 	window.title = "SRUAI - MINDS EYE SQUARED";
 	camGame.alpha = 0.001;
-
-
+	
 	intro1 = new FlxSprite().loadGraphic(Paths.image("stages/smile/PEEKABOO"));
     intro1.scale.set(0, 0);
 	intro1.camera = camHUD;
@@ -193,7 +192,7 @@ function fullwin(){
 	}});
 }
 function postCreate()
-	healthBar.alpha = healthBarBG.alpha = 0;
+	healthBar.alpha = healthBarBG.alpha = iconP1.alpha = iconP2.alpha = 0;
 
 function update(elapsed){
     if (WIN != null) {
@@ -294,6 +293,7 @@ function endReal(){
 	FlxTween.tween(window, {opacity: 0}, 3, {ease: FlxEase.expoOut});
 	setWallpaper(realPath3);
 }
+/*
 function onGamePause(event) {
     event.cancel();
     persistentUpdate = false;
@@ -301,4 +301,5 @@ function onGamePause(event) {
 
     openSubState(new ModSubState('Pause Menus/MIS'));
 }
+*/
 function onSongEnd() window.opacity = 1;

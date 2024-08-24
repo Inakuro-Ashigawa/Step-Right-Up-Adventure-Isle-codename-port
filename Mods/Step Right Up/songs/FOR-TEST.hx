@@ -22,7 +22,7 @@ function update(elapsed:Float) {
 
     if (startingSong || !canPause || paused || health <= 0) return;
     
-    if (FlxG.keys.justPressed.ONE && generatedMusic ) endSong();
+    if (FlxG.keys.justPressed.ONE && generatedMusic) endSong();
     if (FlxG.keys.justPressed.TWO) curSpeed -= 0.1;
     if (FlxG.keys.justPressed.THREE) curSpeed = 1;
     if (FlxG.keys.justPressed.FOUR) curSpeed += 0.1;

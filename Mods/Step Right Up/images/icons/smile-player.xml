@@ -2,38 +2,38 @@
 <TextureAtlas imagePath="icon-smile-player.png">
 	<!-- Created with Adobe Animate version 19.1.0.349 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="sd player girl healthy icon0000" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0001" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0002" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0003" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0004" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0005" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0006" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl healthy icon0007" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0000" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0001" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0002" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0003" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0004" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0005" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0006" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl hurt icon0007" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0000" x="150" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0001" x="150" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0002" x="290" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0003" x="290" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0004" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0005" x="10" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0006" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0007" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to healthy icon0008" x="150" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0000" x="290" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0001" x="290" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0002" x="10" y="290" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0003" x="10" y="290" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0004" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0005" x="290" y="10" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0006" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0007" x="10" y="150" width="130" height="130"/>
-	<SubTexture name="sd player girl to hurt icon0008" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="winningLoop0000" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0001" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0002" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0003" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0004" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0005" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0006" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="winningLoop0007" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="losingLoop0000" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="losingLoop0001" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="losingLoop0002" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="losingLoop0003" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="losingLoop0004" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="losingLoop0005" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="losingLoop0006" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="losingLoop0007" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="winning0000" x="150" y="150" width="130" height="130"/>
+	<SubTexture name="winning0001" x="150" y="150" width="130" height="130"/>
+	<SubTexture name="winning0002" x="290" y="150" width="130" height="130"/>
+	<SubTexture name="winning0003" x="290" y="150" width="130" height="130"/>
+	<SubTexture name="winning0004" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winning0005" x="10" y="10" width="130" height="130"/>
+	<SubTexture name="winning0006" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="winning0007" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="winning0008" x="150" y="10" width="130" height="130"/>
+	<SubTexture name="lose0000" x="290" y="150" width="130" height="130"/>
+	<SubTexture name="lose0001" x="290" y="150" width="130" height="130"/>
+	<SubTexture name="lose0002" x="10" y="290" width="130" height="130"/>
+	<SubTexture name="lose0003" x="10" y="290" width="130" height="130"/>
+	<SubTexture name="lose0004" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="lose0005" x="290" y="10" width="130" height="130"/>
+	<SubTexture name="lose0006" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="lose0007" x="10" y="150" width="130" height="130"/>
+	<SubTexture name="lose0008" x="10" y="150" width="130" height="130"/>
 </TextureAtlas>
