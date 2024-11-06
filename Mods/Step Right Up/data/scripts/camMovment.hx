@@ -41,7 +41,7 @@ function postCreate() {
 }
 function getDefaultCamZoom(curCharacter: String, isBoyfriend: Bool){
     switch (curCharacter) {
-        //dad's...??
+
         case "smiledog-tv": return 1;
         case "dog1": return 1.5;
         case "dog2": return 1.1;
@@ -63,7 +63,7 @@ function getDefaultCamZoom(curCharacter: String, isBoyfriend: Bool){
         case "mama-front": return 1.1;
         case "mama-far": return 1.1;
         
-        //Boyfriend..'s?
+        //Player
         case "sarah_1": if (isBoyfriend) return 0.750;
         case "sarah_fp": if (isBoyfriend) return customPlrZoom;
         case "evilkaru": if (isBoyfriend) return 0.9;
@@ -128,30 +128,25 @@ function stepHit() {
         if (curStep == 640 || curStep == 1152 || curStep == 1408) {
             camZooming = false;
         }
-
         if (curStep == 880 || curStep == 1200 || curStep == 1648) {
             camZooming = true;
         }
     }
-
     if (curStep == "Widespread") {
         if (curStep == 1648) {
             camZooming = false;
         }
-
         if (curStep == 1704) {
             camZooming = true;
             customPlrZoom = 0.8;
         }
     }
-
     if (curStep == "Deep Dream") {
         if (curStep == 3968) {
             camZooming = false;
-            //doTweenZoom("zoomOut", "camGame", 0.90, 3, "quadInOut");
-        }
+            FlxTween.tween(camGame, {zoom: .9}, 3, {ease: FlxEase.quadInOut});
+        } 
     }
-
     if (curStep == "Evilkaru") {
         if (curStep == 759) {
             camZooming = false;

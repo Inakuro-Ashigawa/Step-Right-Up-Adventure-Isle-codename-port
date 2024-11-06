@@ -25,6 +25,7 @@ var colorShader = new CustomShader("colorReplace");
 function onCountdown(event:CountdownEvent) event.cancelled = true;
 
 function onCameraMove(e) if(cancelCameraMove) e.cancel();
+
 function beatHit(){
     if (flashRed && curBeat % 2 == 0)
     new FlxTimer().start(.5, function(timer4:FlxTimer) {
@@ -60,8 +61,6 @@ function create(){
     camHUD.addShader(vcr);
     FlxG.camera.addShader(pixelShader);
     cutsceneCamera.addShader(vcr);
-
-
 }
 //pauses video
 function onSubstateOpen(event) if (mortis!= null && paused && mortis.alpha == 1) mortis.pause();
@@ -211,7 +210,8 @@ function update() {
         colorShader.u_crossColor = crossColor;
         colorShader.u_silverColor = silverColor;
         colorShader.u_goldColor = goldColor;
-        colorShader.u_useSilver = true;  // Use silver for the cross
+        colorShader.u_useSilver = true;  
+        // silver cross
     } 
     else if (health >= 1.8 && !Father) {
         healthBar3.alpha = 0.001;   
